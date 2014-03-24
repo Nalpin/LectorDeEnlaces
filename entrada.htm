@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-css-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es-ES"
+	xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:og="http://ogp.me/ns#" 
+	xmlns:fb="http://www.facebook.com/2008/fbml" > <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="es-ES"
+	xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:og="http://ogp.me/ns#" 
+	xmlns:fb="http://www.facebook.com/2008/fbml" > <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="es-ES"
+	xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:og="http://ogp.me/ns#" 
+	xmlns:fb="http://www.facebook.com/2008/fbml" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html style="cursor: auto ! important;" class=" js no-touch svg inlinesvg svgclippaths no-ie8compat js no-touch svg inlinesvg svgclippaths no-ie8compat" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" lang="es-ES"><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="entrada_files/v2" async=""></script>
+        <meta charset="UTF-8">
+
+        <!-- Set the viewport width to device width for mobile -->
+        <meta name="viewport" content="width=device-width">
+
+        <title>Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder | FreeLibros</title>
+
+        <!-- Included fonts -->
+        <link href="entrada_files/css.css" rel="stylesheet" type="text/css">
+
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+        <link rel="pingback" href="http://www.freelibros.org/xmlrpc.php">
+
+        <link rel="alternate" type="application/rss+xml" title="FreeLibros - Tu Biblioteca Virtual » Feed" href="http://www.freelibros.org/feed">
+<link rel="alternate" type="application/rss+xml" title="FreeLibros - Tu Biblioteca Virtual » RSS de los comentarios" href="http://www.freelibros.org/comments/feed">
+<link rel="alternate" type="application/rss+xml" title="FreeLibros - Tu Biblioteca Virtual » Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder RSS de los comentarios" href="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html/feed">
+<link rel="stylesheet" id="minqueue-8ca68e6f-7a614286-css" href="entrada_files/minqueue-8ca68e6f-7a614286.css" type="text/css" media="all">
+<script src="entrada_files/tc.js" type="text/javascript" async=""></script><script src="entrada_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="entrada_files/jquery.js"></script>
+<script type="text/javascript" src="entrada_files/minqueue-3acba33e-f990f612.js"></script>
+<link rel="prev" title="Inglés – Pruebas de acceso a la universidad para mayores de 25 años" href="http://www.freelibros.org/ingles/ingles-pruebas-de-acceso-a-la-universidad-para-mayores-de-25-anos.html">
+<link rel="next" title="El Gran libro de la Fotografía de Viajes – La Guía Definitiva para disfrutar la fotografía de Viajes" href="http://www.freelibros.org/libros/el-gran-libro-de-la-fotografia-de-viajes-la-guia-definitiva-para-disfrutar-la-fotografia-de-viajes.html">
+<link rel="shortlink" href="http://www.freelibros.org/?p=47335">
+
+<!-- adman 1.6.7.1 -->
+<link rel="stylesheet" type="text/css" href="entrada_files/recaptcha.css">
+<!-- All in One SEO Pack 2.1.4 by Michael Torbert of Semper Fi Web Design[1052,1172] -->
+<meta name="description" content="Java a fondo propone un curso de lenguaje y desarrollo de aplicaciones Java basado en un enfoque totalmente práctico, sin vueltas ni rodeos, y contemplando el">
+
+<meta name="keywords" content="2da edición,actualización a java 7,desarrollo de aplicaciones,java,java a fondo,java a fondo 2da edición,java a fondo 2da edición pablo augusto sznajdleder,java a fondo descargar,java a fondo libro,java a fondo pdf,jdbc,lenguaje y desarrollo de aplicaciones,pablo augusto sznajdleder,scjd,sun certified java developer,sun certified java programmer,xml,programación">
+
+<link rel="canonical" href="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html">
+<meta property="og:title" content="Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder | FreeLibros">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html">
+<meta property="og:image" content="http://3.bp.blogspot.com/-eOleL5jDRVU/UxYTVl8pGKI/AAAAAAAATVo/Om2TNnSFCNQ/s1600/Java+a+fondo.jpg">
+<meta property="og:site_name" content="FreeLibros - Tu Biblioteca Virtual">
+<meta property="fb:admins" content="https://graph.facebook.com/freelibros">
+<meta property="og:description" content="Java a fondo propone un curso de lenguaje y desarrollo de aplicaciones Java basado en un enfoque totalmente práctico, sin vueltas ni rodeos, y contemplando el aprendizaje basado en competencias. El libro comienza desde un nivel “cero” y avanza hasta llegar a temas complejos como Introspección de clases y objetos, Acceso a bases de datos (JDBC), multiprogramación, networking y objetos distribuidos (RMI), entre otros. Se hace hincapié en la teoría de objetos: polimorfismo, clases abstractas, interfaces Java y clases genéricas así como en el uso de patrones de diseño que permiten desacoplar las diferentes partes que componen una aplicación para que esta resulte ser mantenible, extensible y escalable. La obra explica cómo diseñar y desarrollar aplicaciones Java respetando los estándares y lineamientos propuestos por los expertos de la industria lo que la convierte en una herramienta fundamental para obtener las certificaciones internacionales SCJP (Sun Certified Java Programmer) y S">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Java a fondo propone un curso de lenguaje y desarrollo de aplicaciones Java basado en un enfoque totalmente práctico, sin vueltas ni rodeos, y contemplando el aprendizaje basado en competencias. El libro comienza desde un nivel “cero” y avanza hasta llegar a temas complejos como Introspección de clases y objetos, Acceso a bases de datos (JDBC), multiprogramación, networking y objetos distribuidos (RMI), entre otros. Se hace hincapié en la teoría de objetos: polimorfismo, clases abstractas, interfaces Java y clases genéricas así como en el uso de patrones de diseño que permiten desacoplar las diferentes partes que componen una aplicación para que esta resulte ser mantenible, extensible y escalable. La obra explica cómo diseñar y desarrollar aplicaciones Java respetando los estándares y lineamientos propuestos por los expertos de la industria lo que la convierte en una herramienta fundamental para obtener las certificaciones internacionales SCJP (Sun Certified Java Programmer) y S">
+<!-- /all in one seo pack -->
+        
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4920087-9']);
+  _gaq.push(['_setDomainName', 'freelibros.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script src="entrada_files/45701.js"></script>        
+    <script src="entrada_files/a_pro.js" async="" type="text/javascript"></script><script>try {  for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement && 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i<forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}</script></head>
+
+    <body class="single single-post postid-47335 single-format-standard group-blog">
+
+        <!--[if lt IE 7]>
+                    <div class="alert-box tip"><p class="chromeframe">Tú estás usando un <strong>Navegador Antiguo</strong>. Por favor <a href="http://browsehappy.com/">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorar tu experiencia en nuestro sitio web.</p></div>
+                <![endif]-->
+				
+				<noscript><div class="alert-box tip">Tu navegador es muy antiguo y no soporta <strong>JavaScript</strong>. Por favor <a href="http://browsehappy.com/">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorar tu experiencia en nuestro sitio web.</div></noscript>
+
+        <!--Header-->
+        <header id="header" class="row-wide">
+
+
+            <div class="row-wide blue-bg">
+                <div class="row-wide black-bg">
+
+                    <!--Top bar-->
+                    <div id="top-bar" class="row">
+
+                        <!--Top nav-->
+                        <nav class="nine columns" id="top-nav">
+                            <ul id="menu-paginas-2" class="link-list menu hide-for-small l_tinynav1"><li id="menu-item-42321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-42321"><a href="http://www.freelibros.org/">Inicio</a></li>
+<li id="menu-item-44649" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44649"><a href="http://www.freelibros.org/ultimas-actualizaciones">Actualizaciones</a></li>
+<li id="menu-item-42259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42259"><a href="http://www.freelibros.org/posts-exclusivos">Libros Exclusivos</a></li>
+<li id="menu-item-42261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42261"><a href="http://www.freelibros.org/contacto">Contáctanos</a></li>
+<li id="menu-item-42263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42263"><a href="http://www.freelibros.org/report-abuse-dmca">DMCA</a></li>
+<li id="menu-item-42262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42262"><a href="http://www.freelibros.org/terminos">Términos</a></li>
+<li id="menu-item-47272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47272"><a href="http://www.freelibros.org/privacidad">Privacidad</a></li>
+<li id="menu-item-42362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42362"><a href="http://www.freelibros.org/faqs">FAQs</a></li>
+</ul><select class="tinynav show-for-small tinynav1" id="tinynav1"><option selected="selected">Navegación de Páginas</option><option value="http://www.freelibros.org">Inicio</option><option value="http://www.freelibros.org/ultimas-actualizaciones">Actualizaciones</option><option value="http://www.freelibros.org/posts-exclusivos">Libros Exclusivos</option><option value="http://www.freelibros.org/contacto">Contáctanos</option><option value="http://www.freelibros.org/report-abuse-dmca">DMCA</option><option value="http://www.freelibros.org/terminos">Términos</option><option value="http://www.freelibros.org/privacidad">Privacidad</option><option value="http://www.freelibros.org/faqs">FAQs</option></select>                        </nav>
+
+                        <!--Social profiles-->
+                        <div class="three columns link-list social-profiles hide-for-small">
+                            <a class="right" href="http://www.freelibros.org/feed" target="_blank">
+                                <i class="icon-rss icon-light"></i></a>
+                            <a class="right" href="https://plus.google.com/u/0/101967180182095268895" target="_blank">
+                                <i class="icon-google-plus icon-light"></i></a>
+                            <a class="right" href="http://twitter.com/FreeLibros_CoM" target="_blank">
+                                <i class="icon-twitter icon-light"></i></a>
+                            <a class="right" href="http://facebook.com/freelibros" target="_blank">
+                                <i class="icon-facebook icon-light"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Logo bar-->
+            <div id="logo-bar" class="row">
+
+                <!--Logo-->
+                <div id="logo" class="six columns">
+                    <a href="http://www.freelibros.org/" title="FreeLibros – Tu Biblioteca Virtual" rel="home">
+                                                    <img src="entrada_files/logofreelibros.png" title="FreeLibros – Tu Biblioteca Virtual" alt="FreeLibros – Tu Biblioteca Virtual">
+                                            </a>
+                </div>
+
+                    <!--Top header ad-->
+                    <div id="header-ad" class="six columns hide-for-small">
+                                        </div>
+            </div>
+
+            <!--Primary nav-->
+            <nav id="primary-nav" class="row">
+                <ul id="menu-menu" class="link-list menu hide-for-small l_tinynav2"><li id="menu-item-42320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-42320"><a href="http://www.freelibros.org/">Home</a></li>
+<li id="menu-item-41764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41764"><a href="http://www.freelibros.org/ultimas-actualizaciones">Actualizaciones</a></li>
+<li id="menu-item-41234" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41234"><a href="http://www.freelibros.org/category/administracion">Administración</a></li>
+<li id="menu-item-41226" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41226"><a href="http://www.freelibros.org/category/audiolibro">AudioLibros</a></li>
+<li id="menu-item-41225" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41225"><a href="http://www.freelibros.org/category/ingenieria">Ingenieria</a></li>
+<li id="menu-item-41224" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-41224"><a href="http://www.freelibros.org/category/matematicas">Matemáticas</a>
+<ul class="sub-menu">
+	<li id="menu-item-44112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44112"><a href="http://www.freelibros.org/category/algebra">Álgebra</a></li>
+	<li id="menu-item-44113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44113"><a href="http://www.freelibros.org/category/analisis-matematico">Análisis Matemático</a></li>
+	<li id="menu-item-44114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44114"><a href="http://www.freelibros.org/category/calculo">Cálculo</a></li>
+	<li id="menu-item-44115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44115"><a href="http://www.freelibros.org/category/geometria">Geometria</a></li>
+	<li id="menu-item-44117" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44117"><a href="http://www.freelibros.org/category/integrales">Integrales</a></li>
+	<li id="menu-item-44118" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44118"><a href="http://www.freelibros.org/category/matematica-discreta">Matemática Discreta</a></li>
+</ul>
+</li>
+<li id="menu-item-41227" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41227"><a href="http://www.freelibros.org/category/manualidades">Manualidades</a></li>
+<li id="menu-item-41228" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-41228"><a href="http://www.freelibros.org/category/programacion">Programación</a></li>
+<li id="menu-item-41229" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41229"><a href="http://www.freelibros.org/category/rincon-literario">Rincón Literario</a></li>
+</ul><select class="tinynav show-for-small tinynav2" id="tinynav2"><option selected="selected">Navegación de Categorías</option><option value="http://www.freelibros.org">Home</option><option value="http://www.freelibros.org/ultimas-actualizaciones">Actualizaciones</option><option value="http://www.freelibros.org/category/administracion">Administración</option><option value="http://www.freelibros.org/category/audiolibro">AudioLibros</option><option value="http://www.freelibros.org/category/ingenieria">Ingenieria</option><option value="http://www.freelibros.org/category/matematicas">Matemáticas</option><option value="http://www.freelibros.org/category/algebra">- Álgebra</option><option value="http://www.freelibros.org/category/analisis-matematico">- Análisis Matemático</option><option value="http://www.freelibros.org/category/calculo">- Cálculo</option><option value="http://www.freelibros.org/category/geometria">- Geometria</option><option value="http://www.freelibros.org/category/integrales">- Integrales</option><option value="http://www.freelibros.org/category/matematica-discreta">- Matemática Discreta</option><option value="http://www.freelibros.org/category/manualidades">Manualidades</option><option value="http://www.freelibros.org/category/programacion">Programación</option><option value="http://www.freelibros.org/category/rincon-literario">Rincón Literario</option></select>            </nav>
+        </header><!-- End header -->
+
+                <!--Steps - User guide -->
+        <div id="steps" class="row">
+            <div class="eleven columns centered">
+                <div class="signup"><span><a href="http://www.freelibros.org/wp-login.php?action=register">Regístrate Gratis</a></span>
+                    <i class="icon-chevron-right"></i></div>
+                <div class="access"><span>Accede a nuestras Descargas Privadas</span>
+                    <i class="icon-chevron-right"></i></div>
+                    
+                <!--Google´s CSE-->
+                <form action="http://freelibros.smagx.com/" id="cse-search-box" target="_blank" _lpchecked="1">
+                    <input name="cx" value="partner-pub-7902372207005531:2040690987" type="hidden">
+                    <input name="cof" value="FORID:10" type="hidden">
+                    <input name="ie" value="UTF-8" type="hidden">
+                    <input class="nine columns" name="q" placeholder="Busca tus libros favoritos..." autocomplete="on" type="text">
+                    <input class="three columns" name="sa" value="Buscar" type="submit">
+                </form>
+            </div>  
+<center><div style="position:relative; width:728px; height:90px;">
+
+                <div id="bannerPlayer" style="position:absolute; top:0px; left:0px; text-align:center; padding-top:20px; width:100%; height:100%; background:url(http://www.freelibros.org/fl/download.png) no-repeat center center; cursor:pointer;">
+                               <div style="position:relative; width:728px; height:90px; margin:auto; opacity:0.01; filter:alpha(opacity=01);">
+
+<iframe class="lgvxeiaoytdctcgnsduo" src="entrada_files/direct.htm" border="0" marginwidth="0" marginheight="0" frameborder="0" height="90" scrolling="no" width="728"></iframe>
+                          
+	     </div>
+                </div>
+                
+</div></center>			
+        </div>   
+        <!--Content wrapper-->
+        <div style="position: relative;" id="content-wrapper" class="row">
+
+            <!-- Main Content -->
+            <div id="main-content" class="eight columns">
+
+             <!--Post-->
+<article style="position: relative;" id="post-47335" class="post-47335 post type-post status-publish format-standard category-programacion tag-2da-edicion tag-actualizacion-a-java-7 tag-desarrollo-de-aplicaciones tag-java tag-java-a-fondo tag-java-a-fondo-2da-edicion tag-java-a-fondo-2da-edicion-pablo-augusto-sznajdleder tag-java-a-fondo-descargar tag-java-a-fondo-libro tag-java-a-fondo-pdf tag-jdbc tag-lenguaje-y-desarrollo-de-aplicaciones tag-pablo-augusto-sznajdleder tag-scjd tag-sun-certified-java-developer tag-sun-certified-java-programmer tag-xml">
+
+    <h1 class="entry-title"><a href="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html" title="Enlace a Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder" rel="bookmark">Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder</a></h1>
+
+    <!--Entry meta-->
+    <div class="entry-meta"><span class="entry-author vcard"><i class="icon-user"></i><a class="url fn n" href="http://www.freelibros.org/author/priale" title="Ver todos los posts de Priale" rel="author">Priale</a></span><span class="entry-date"><i class="icon-calendar"></i><time datetime="2014-03-04T13:46:10+00:00" pubdate="">4 marzo 2014</time></span>        <span class="entry-cat"><i class="icon-tag"></i><a href="http://www.freelibros.org/category/programacion" title="Ver todas las entradas en Programación" rel="category tag">Programación</a></span>
+
+        </div>
+
+    
+    <div style="position: relative; left: 0px; top: 0px;" class="share-buttons vertical counter floating  sticky-scroll">
+
+                        <div class="facebook sharrre" data-url="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html" data-text="Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder" data-title="Like"><div class="box"><a class="count" href="#" target="_blank">53</a><div class="share"><a href="#"><i class="icon-facebook"></i></a></div></div></div>
+                  
+
+                <div class="twitter sharrre" data-url="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html" data-text="Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder" data-title="Tweet"><div class="box"><a class="count" href="#" target="_blank">10</a><div class="share"><a href="#"><i class="icon-twitter"></i></a></div></div></div>
+                                  
+                <div class="googleplus sharrre" data-url="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html" data-text="Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder" data-title="+1"><div class="box"><a class="count" href="#" target="_blank">1</a><div class="share"><a href="#"><i class="icon-google-plus"></i></a></div></div></div>
+                
+    </div>
+
+    
+    <!--Entry content-->
+    <div class="entry-content">
+
+        
+        <p style="text-align: justify;"><a rel="gallery" href="http://3.bp.blogspot.com/-eOleL5jDRVU/UxYTVl8pGKI/AAAAAAAATVo/Om2TNnSFCNQ/s1600/Java+a+fondo.jpg"><img class="aligncenter" style="margin-top: 0pt; margin-bottom: 10px; cursor: pointer; width: 280px; height: 380px;" alt="Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición   Pablo Augusto Sznajdleder" src="entrada_files/Javaafondo.jpg" title="Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición   Pablo Augusto Sznajdleder" border="0"></a>Java
+ a fondo propone un curso de lenguaje y desarrollo de aplicaciones Java 
+basado en un enfoque totalmente práctico, sin vueltas ni rodeos, y 
+contemplando el aprendizaje basado en competencias.</p>
+<p style="text-align: justify;">El libro comienza desde un nivel “cero” y
+ avanza hasta llegar a temas complejos como Introspección de clases y 
+objetos, Acceso a bases de datos (JDBC), multiprogramación, networking y
+ objetos distribuidos (RMI), entre otros.</p>
+<p style="text-align: justify;">Se hace hincapié en la teoría de 
+objetos: polimorfismo, clases abstractas, interfaces Java y clases 
+genéricas así como en el uso de patrones de diseño que permiten 
+desacoplar las diferentes partes que componen una aplicación para que 
+esta resulte ser mantenible, extensible y escalable.</p>
+<p style="text-align: justify;">La obra explica cómo diseñar y 
+desarrollar aplicaciones Java respetando los estándares y lineamientos 
+propuestos por los expertos de la industria lo que la convierte en una 
+herramienta fundamental para obtener las certificaciones internacionales
+ SCJP (Sun Certified Java Programmer) y SCJD (Sun Certified Java 
+Developer).</p>
+<p style="text-align: justify;">Para ayudar a clarificar los conceptos, 
+el autor incluye diagramas UML y una serie de videotutoriales que 
+incrementan notablemente la dinámica del aprendizaje, además de guiar al
+ alumno en el uso de una de las herramientas de desarrollo más 
+utilizadas y difundidas: Eclipse.</p>
+<p style="text-align: justify;">Java a fondo puede utilizarse como un 
+libro de referencia o como una guía para desarrollar aplicaciones Java 
+ya que la estructuración de los contenidos fue cuidadosamente pensada 
+para este fin.</p>
+<p style="text-align: justify;">Entre los Capítulos 1 y 3, se explica el
+ lenguaje de programación, el paradigma de objetos y JDBC que es la API a
+ través de la cual los programas Java se conectan con las bases de 
+datos.</p>
+<p style="text-align: justify;">El Capítulo 4 explica cómo desarrollar 
+una aplicación Java separada en capas lógicas (“presentación”, 
+“aplicación” y “acceso a datos”) poniendo en práctica los principales 
+patrones de diseño. La aplicación de estudio se conecta a una base de 
+datos e interactúa con el usuario a través de la consola (teclado y 
+pantalla en modo texto).</p><!-- adman_adcode (middle, 1) --><script type="text/javascript">
+var adParams = {a: '11850187', size: '300x250',serverdomain: 's.rev2pub.com'  ,context:'c11884168' };
+</script>
+<script type="text/javascript" src="entrada_files/smart.js"></script><!-- /adman_adcode (middle) -->
+<p style="text-align: justify;">El Capítulo 5 explica AWT y Swing que 
+son las APIs provistas por el lenguaje con las que podemos desarrollar 
+interfaces gráficas, permitiendo que el lector programe una capa de 
+presentación más vistosa y amigable para la aplicación desarrollada en 
+el capítulo anterior.</p>
+<p style="text-align: justify;">En los Capítulos 6 y 7, se estudian los 
+conceptos de multiprogramación y networking: cómo conectar programas a 
+través de la red utilizando los protocolos UDP y TCP, y RMI.</p>
+<p style="text-align: justify;">Con los conocimientos adquiridos hasta 
+este momento, en el Capítulo 8, se vuelve a analizar la aplicación de 
+estudio del Capítulo 4, pero desde un punto de vista físico 
+diferenciando entre capas lógicas y capas físicas e implementando la 
+capa de aplicación detrás de los servicios de un server.</p>
+<p style="text-align: justify;">Entre los Capítulos 9 y 11, se estudian 
+conceptos de estructuras de datos, parseo de contenidos XML e 
+introspección de clases y objetos para luego, en el Capítulo 12, 
+aplicarlos en el análisis y desarrollo de un framework que automatiza 
+las tareas rutinarias y repetitivas que hubo que realizar (por ejemplo) 
+para leer archivos XML y para acceder a la base de datos, entre otras 
+cosas.</p>
+<p style="text-align: justify;">En el Capítulo 13, se estudian conceptos de entrada y salida (I/O streams).</p>
+<p style="text-align: justify;">El Capítulo 14 profundiza sobre 
+cuestiones que, adrede, no fueron tratadas para evitar confundir al 
+lector. Principalmente, consideraciones sobre concurrencia, 
+multithreading y sobre el uso ciertas clases “legacy”.</p>
+<p style="text-align: justify;"><strong>Contenido:</strong></p>
+<p style="text-align: justify;">1. Introducción al lenguaje de programación Java<br>
+2. Programación orientada a objetos<br>
+3. Acceso a bases de datos (JDBC)<br>
+4. Diseño de aplicaciones Java (Parte I)<br>
+5. Interfaz gráfi ca (GUI)<br>
+6. Multithreading (Hilos)<br>
+7. Networking<br>
+8. Diseño de aplicaciones Java (Parte II)<br>
+9. Estructuras de datos dinámicas<br>
+10. Parametrización mediante archivos XML<br>
+11. Introspección de clases y objetos<br>
+12. Generalizaciones y desarrollo de frameworks<br>
+13. Entrada/Salida<br>
+14. Consideraciones fi nales<br>
+15. Object Relational Mapping (ORM) y persistencia de datos<br>
+16. Inversión del control por inyección de dependencias<br>
+Apéndice A. Nociones básicas de programación<br>
+Apéndice B. Applets<br>
+Bibliografía</p>
+<!-- adman_adcode_after --><center><div style="position:relative; width:468px; height:60px;">
+
+                <div id="bannerPlayer" style="position:absolute; top:0px; left:0px; text-align:center; padding-top:20px; width:100%; height:100%; background:url(http://www.freelibros.org/fl/descargarlibros.jpg) no-repeat center center; cursor:pointer;">
+                               <div style="position:relative; width:468px; height:60px; margin:auto; opacity:0.01; filter:alpha(opacity=01);">
+
+<iframe class="lgvxeiaoytdctcgnsduo" src="entrada_files/direct_004.htm" border="0" marginwidth="0" marginheight="0" frameborder="0" height="60" scrolling="no" width="468"></iframe>
+                               </div>
+                </div>
+</div><span style="font-weight: bold; color: rgb(102, 0, 204);">Contraseña/Password: <span style="color: rgb(204, 0, 0);">www.freelibros.com</span> o <span style="color: rgb(204, 0, 0);">www.freelibros.org</span></span><br><br></center><!-- /adman_adcode_after -->
+                            <!--Download overview-->
+            <div id="overview">
+                <div class="details">
+                                            <span class="format"><b>Formato:</b>&nbsp;&nbsp;pdf</span>                                            <span class="compressed"><b>Comprimido:</b>&nbsp;&nbsp;Sí</span>                                            <span class="weight"><b>Peso:</b>&nbsp;&nbsp;14.30 MB</span>                                            <span class="language"><b>Lenguaje:</b>&nbsp;&nbsp;Español</span>                </div>
+                                <div class="actions">
+        <a href="#" data-reveal-id="download-public-links">Enlaces Públicos de descarga</a>                <a href="#" data-reveal-id="download-private-links">Enlaces Privados de descarga</a>                    
+                    </div>
+    	
+            </div>
+
+    </div>
+
+    <footer id="entry-footer">
+
+
+    <div class="share-buttons horizontal counter tiny ">
+
+                        <div class="facebook sharrre" data-url="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html" data-text="Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder" data-title="Like"><div class="box"><div class="share"><a href="#"><i class="icon-facebook"></i></a></div><a class="count" href="#" target="_blank">53</a></div></div>
+                  
+
+                <div class="twitter sharrre" data-url="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html" data-text="Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder" data-title="Tweet"><div class="box"><div class="share"><a href="#"><i class="icon-twitter"></i></a></div><a class="count" href="#" target="_blank">10</a></div></div>
+                                  
+                <div class="googleplus sharrre" data-url="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html" data-text="Java a fondo: Estudio del lenguaje y desarrollo de aplicaciones, 2da Edición – Pablo Augusto Sznajdleder" data-title="+1"><div class="box"><div class="share"><a href="#"><i class="icon-google-plus"></i></a></div><a class="count" href="#" target="_blank">1</a></div></div>
+                
+    </div>
+
+    <br>
+<center><table border="0">
+  <tbody><tr>
+    <th><a href="http://www.yourfilezone.com/signup?sf=search_books&amp;ref=4972781&amp;q=Java%20a%20fondo:%20Estudio%20del%20lenguaje%20y%20desarrollo%20de%20aplicaciones,%202da%20Edici%C3%B3n%20%E2%80%93%20Pablo%20Augusto%20Sznajdleder%20EPUB" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img src="entrada_files/descargarepub.png" border="0"></a></th>
+    <th><a href="http://www.yourfilezone.com/signup?sf=search_books&amp;ref=4972781&amp;q=Java%20a%20fondo:%20Estudio%20del%20lenguaje%20y%20desarrollo%20de%20aplicaciones,%202da%20Edici%C3%B3n%20%E2%80%93%20Pablo%20Augusto%20Sznajdleder%20RTF" imageanchor="1" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img src="entrada_files/descargarrtf.png" border="0"></a></th>
+  </tr>
+</tbody></table></center>
+<br>
+
+        <!--Related posts widget-->
+        <div class="widget related-posts">
+            <ul>
+                        
+                    <li class="three mobile-one columns">
+                        <a href="http://www.freelibros.org/diseno-web/aplicaciones-web-grado-medio-2012.html" title="Enlace a Aplicaciones Web – Grado Medio 2012" rel="bookmark">
+            <img src="entrada_files/4027b3e7f27ff42cc45ec1ade3be1aa66afec269-120x80.jpg" class="attachment-related-posts-thumb wp-post-image" array="" height="80" width="120">
+            Aplicaciones Web – Grado Medio 2012</a></li>
+
+                
+                    <li class="three mobile-one columns">
+                        <a href="http://www.freelibros.org/programacion/introduccion-a-la-teoria-de-automatas-lenguajes-y-computacion-3ra-edicion-john-e-hopcroft-rajeev-motwani-y-jeffrey-d-ullman.html" title="Enlace a Introducción a la teoría de autómatas, lenguajes y computación, 3ra Edición – John E. Hopcroft, Rajeev Motwani y Jeffrey D. Ullman" rel="bookmark">
+            <img src="entrada_files/4a3520fe168764f08a98dc31ea0a970244fd07b3-120x80.jpg" class="attachment-related-posts-thumb wp-post-image" array="" height="80" width="120">
+            Introducción a la teoría de autómatas, lenguajes y 
+computación, 3ra Edición – John E. Hopcroft, Rajeev Motwani y Jeffrey D.
+ Ullman</a></li>
+
+                
+                    <li class="three mobile-one columns">
+                        <a href="http://www.freelibros.org/diseno-web/mejorandola-curso-profesional-de-backend-2014espanol.html" title="Enlace a Mejorandola: Curso Profesional de Backend (2014)[Español]" rel="bookmark">
+            <img src="entrada_files/c6151c4dade031a6ae0feb5f0d1d1758480bd5ff-120x80.png" class="attachment-related-posts-thumb wp-post-image" array="" height="80" width="120">
+            Mejorandola: Curso Profesional de Backend (2014)[Español]</a></li>
+
+                
+                    <li class="three mobile-one columns">
+                        <a href="http://www.freelibros.org/programacion/video2brain-c-2014.html" title="Enlace a Video2Brain: C# (2014)" rel="bookmark">
+            <img src="entrada_files/767af0a2b1389c3fc2f006ac3e0b13c17fd48ff6-120x80.jpg" class="attachment-related-posts-thumb wp-post-image" array="" height="80" width="120">
+            Video2Brain: C# (2014)</a></li>
+
+                                       
+            </ul>
+            <div class="clear"></div>
+        </div>
+        
+                <!-- Email subscription widget -->
+        <div class="widget email-subscription">
+                        <div class="msg">Únete a más de <span class="highlight">62,000</span> personas que reciben nuestros eBooks en sus Correos</div>
+            
+            
+                <form action="http://feedburner.google.com/fb/a/mailverify" target="popupwindow" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=Ebookss', 'popupwindow', 'scrollbars=yes,width=550,height=520');
+                        return true" _lpchecked="1">
+
+            
+                    <input class="nine columns" placeholder="Mi correo es..." name="email" type="text">
+                    <input value="Ebookss" name="uri" type="hidden">
+                    <input value="es_ES" name="loc" type="hidden">
+
+                                        <input class="two columns" value="Listo!" type="submit">
+                            <div class="clear"></div>
+                </form>
+        </div>
+
+         
+
+        <!--Tags-->
+        <div class="tags">Tags:<a href="http://www.freelibros.org/tag/2da-edicion" rel="tag">2da Edición</a> <a href="http://www.freelibros.org/tag/actualizacion-a-java-7" rel="tag">Actualización a java 7</a> <a href="http://www.freelibros.org/tag/desarrollo-de-aplicaciones" rel="tag">Desarrollo de aplicaciones</a> <a href="http://www.freelibros.org/tag/java" rel="tag">Java</a> <a href="http://www.freelibros.org/tag/java-a-fondo" rel="tag">Java a fondo</a> <a href="http://www.freelibros.org/tag/java-a-fondo-2da-edicion" rel="tag">Java a fondo 2da Edición</a> <a href="http://www.freelibros.org/tag/java-a-fondo-2da-edicion-pablo-augusto-sznajdleder" rel="tag">Java a fondo 2da Edición Pablo Augusto Sznajdleder</a> <a href="http://www.freelibros.org/tag/java-a-fondo-descargar" rel="tag">Java a fondo descargar</a> <a href="http://www.freelibros.org/tag/java-a-fondo-libro" rel="tag">Java a fondo libro</a> <a href="http://www.freelibros.org/tag/java-a-fondo-pdf" rel="tag">Java a fondo pdf</a> <a href="http://www.freelibros.org/tag/jdbc" rel="tag">JDBC</a> <a href="http://www.freelibros.org/tag/lenguaje-y-desarrollo-de-aplicaciones" rel="tag">lenguaje y desarrollo de aplicaciones</a> <a href="http://www.freelibros.org/tag/pablo-augusto-sznajdleder" rel="tag">Pablo Augusto Sznajdleder</a> <a href="http://www.freelibros.org/tag/scjd" rel="tag">SCJD</a> <a href="http://www.freelibros.org/tag/sun-certified-java-developer" rel="tag">Sun Certified Java Developer</a> <a href="http://www.freelibros.org/tag/sun-certified-java-programmer" rel="tag">Sun Certified Java Programmer</a> <a href="http://www.freelibros.org/tag/xml" rel="tag">XML</a></div>
+    </footer>
+    <div class="clear"></div>
+</article>
+                    
+
+<div id="comments" class="comments-area">
+    <div id="comments-wrap"> 
+        
+            
+                <h3><i class="icon-comments"></i>6 Comentarios</h3>
+
+                        <div class="comment" id="comment-183781">
+        <img alt="" src="entrada_files/1e3dc8d22c0a1a0fbd7d164ef520252c.png" class="avatar avatar-85 photo" height="85" width="85">        <div class="comment-meta"><span class="author"><b>Juan Carlos</b> dijo:</span><span class="date">04 mar. 2014</span></div>
+        <p></p><p>Buen post muchas gracias</p>
+<p></p>                <div class="clear"></div>
+    </div>
+
+    <!-- #comment-## -->
+    <div class="comment" id="comment-183784">
+        <img alt="" src="entrada_files/af2d622b32ddbbb9172959a61f5a9cca.png" class="avatar avatar-85 photo" height="85" width="85">        <div class="comment-meta"><span class="author"><b>octa</b> dijo:</span><span class="date">04 mar. 2014</span></div>
+        <p></p><p>gracias</p>
+<p></p>                <div class="clear"></div>
+    </div>
+
+    <!-- #comment-## -->
+    <div class="comment" id="comment-183801">
+        <img alt="" src="entrada_files/7f1b1113f2db15b1ad2f6b6e8621f775.png" class="avatar avatar-85 photo" height="85" width="85">        <div class="comment-meta"><span class="author"><b>Jhonny</b> dijo:</span><span class="date">05 mar. 2014</span></div>
+        <p></p><p>Muchas gracias, estaba buscando ese libro ya hace ratos.</p>
+<p></p>                <div class="clear"></div>
+    </div>
+
+    <!-- #comment-## -->
+    <div class="comment" id="comment-183839">
+        <img alt="" src="entrada_files/1e6fd45f387a63d334c9bad46401a79d.png" class="avatar avatar-85 photo" height="85" width="85">        <div class="comment-meta"><span class="author"><b>juan</b> dijo:</span><span class="date">05 mar. 2014</span></div>
+        <p></p><p>Error al descompactar</p>
+<p></p>                <div class="clear"></div>
+    </div>
+
+    <!-- #comment-## -->
+    <div class="comment" id="comment-183841">
+        <img alt="" src="entrada_files/9b60fba4efcd797a5b705e158ddac6cd.png" class="avatar avatar-85 photo" height="85" width="85">        <div class="comment-meta"><span class="author"><b><a href="http://www.freelibros.com/" rel="external nofollow" class="url">Priale</a></b> dijo:</span><span class="date">05 mar. 2014</span></div>
+        <p></p><p>Intenta descargar otra vez saludos</p>
+<p></p>                <div class="clear"></div>
+    </div>
+
+    <!-- #comment-## -->
+    <div class="comment" id="comment-184424">
+        <img alt="" src="entrada_files/4e897a553e9ec670fe8597cb2dcf3f77.png" class="avatar avatar-85 photo" height="85" width="85">        <div class="comment-meta"><span class="author"><b>doble</b> dijo:</span><span class="date">18 mar. 2014</span></div>
+        <p></p><p>Hola…Normalmente me da mucho gusto ver este tipo de 
+aportes, pero esta vez junto al agradecimiento me gustaría platicarles 
+algo del libro:<br>
+Hay muchos libros de java colgados en la red incluyendo algunos tan 
+famosos como el deitel del que ya van en la edición 9 (al parecer no 
+afecta en nada porque es un libro relativamente caro, gringo y además 
+pesado de cargar). Java a Fondo es uno de los pocos libros sobre java de
+ alguna forma enfocados a una certificación, es especialmente fácil de 
+leer y toca temas que pocos libros sobre java SE tratan…bueno, en 
+fin…alfaomega no es pearson… se que es muy caro comprar todos los libros
+ que nos interesan y que hay muchos que son un desperdicio de dinero. El
+ libro de pablo sz es de los mejores que he tenido la oportunidad de 
+comprar(5 hasta el momento)y me pone contento tenerlo ahora en pdf al 
+precio de nada pero  aún si me hubiera llegado primero el digital lo 
+habría comprado. Me encantaría que las cosas cambiaran y que liberaran 
+los libros para que después uno decidiera si comprarlos impresos…el 
+chiste: Los invito a revisar el material y si los convence(que seguro lo
+ hará) hagan la compra en papel, cuesta 300 pesos…no quiero decir que 
+por las descargas ilegales se quedarán sin series como crepúsculo porque
+ no.  Los libros de programación no son tantos como quisiéramos por 
+favor consideren comprar el libro que además tiene un código para 
+accesar a material en linea… pidanlo a porrua o comprenlo en gandhi. 
+Saludos.</p>
+<p></p>                <div class="clear"></div>
+    </div>
+
+    <!-- #comment-## -->
+                
+                <div class="navigation">
+                    <div class="alignleft"></div>
+                    <div class="alignright"></div>
+                    <div class="clear"></div>
+                </div>
+
+                </div>
+
+    <div id="comment-form-fl">
+
+        								<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Deja tu Comentario <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://www.freelibros.org/programacion/java-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html#respond" style="display:none;">Cancelar respuesta</a></small></h3>
+									<form action="http://www.freelibros.org/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																										<div class="comment-form-author four mobile-three columns"><div class="input-wrapper"><i class="icon-user"></i><input id="author" name="author" placeholder="Nombre" type="text"></div></div>
+<div class="comment-form-email five mobile-three columns"><div class="input-wrapper"><i class="icon-envelope-alt"></i><input id="email" name="email" placeholder="Email" type="email"></div></div>
+<div class="comment-form-url three mobile-three columns"><div class="input-wrapper"><i class="icon-globe"></i><input id="url" name="url" placeholder="Sitio Web" type="text"></div></div><br class="clearer">
+												<div class="comment-form-comment"><div class="label"><label for="comment">Comentario</label></div><div class="input-wrapper"><div class="shadow"><textarea id="comment" name="comment" aria-required="true" placeholder="Comentario"></textarea></div></div></div><br class="clearer">												<p class="form-submit">
+							<input name="submit" id="submit" value="Publicar comentario" type="submit">
+							<input name="comment_post_ID" value="47335" id="comment_post_ID" type="hidden">
+<input name="comment_parent" id="comment_parent" value="0" type="hidden">
+						</p>
+						<p style="display: none;"><input id="akismet_comment_nonce" name="akismet_comment_nonce" value="b8b4bf96d5" type="hidden"></p>					</form>
+							</div><!-- #respond -->
+			 
+
+    </div>
+
+</div>            </div><!-- End Main Content -->
+
+
+
+<!-- Sidebar -->
+            <aside id="sidebar" class="four columns">
+
+
+                <!-- Email subscription widget -->
+        <div class="widget email-subscription">
+                        <div class="msg">Únete a más de <span class="highlight">62,000</span> personas que reciben nuestros Mejores eBooks en sus Correos</div>
+            <div class="arrow columns centered"></div>
+            
+                <form action="http://feedburner.google.com/fb/a/mailverify" target="popupwindow" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=Ebookss', 'popupwindow', 'scrollbars=yes,width=550,height=520');
+                        return true" _lpchecked="1">
+
+             <h3>Suscripción Gratis</h3>
+                    <input class="" placeholder="Mi correo es..." name="email" type="text">
+                    <input value="Ebookss" name="uri" type="hidden">
+                    <input value="es_ES" name="loc" type="hidden">
+
+                                        <input class="" value="Listo!" type="submit">
+                                <!--Social profiles-->
+                        <div class="link-list social-profiles">
+                            <a href="http://facebook.com/freelibros" target="_blank">
+                                <span class="icon-stack">
+                                    <i class="icon-circle icon-stack-base"></i>
+                                    <i class="icon-facebook icon-light"></i>
+                                </span>
+                            </a>
+                            <a href="http://twitter.com/FreeLibros_CoM" target="_blank">
+                                <span class="icon-stack">
+                                    <i class="icon-circle icon-stack-base"></i>
+                                    <i class="icon-twitter icon-light"></i>
+                                </span>
+                            </a>
+                            <a href="https://plus.google.com/u/0/101967180182095268895" target="_blank">
+                                <span class="icon-stack">
+                                    <i class="icon-circle icon-stack-base"></i>
+                                    <i class="icon-google-plus icon-light"></i>
+                                </span>
+                            </a>
+                            <a href="http://www.freelibros.org/feed" target="_blank">
+                                <span class="icon-stack">
+                                    <i class="icon-circle icon-stack-base"></i>
+                                    <i class="icon-rss icon-light"></i>
+                                </span>
+                            </a>
+                            <div class="clear"></div>
+                        </div>
+                            <div class="clear"></div>
+                </form>
+        </div>
+
+        
+        <div class="widget widget_search">
+            <h4 class="title">Busca tus libros favoritos...</h4>
+            <form action="http://freelibros.smagx.com/" id="cse-search-box" target="_blank" _lpchecked="1">
+                <input name="cx" value="partner-pub-7902372207005531:2040690987" type="hidden">
+                <input name="cof" value="FORID:10" type="hidden">
+                <input name="ie" value="UTF-8" type="hidden">
+                <input class="textobuscador" name="q" placeholder="Escribe y presiona enter..." autocomplete="on" type="text">
+                <input class="botonbuscador" name="sa" value="Buscar" type="submit">
+            </form>
+        </div>
+        
+        <div class="widget unwrapped "><center><script type="text/javascript">
+var adParams = {a: '11850187', size: '300x250',serverdomain: 's.rev2pub.com'  ,context:'c11884168' };
+</script>
+<script type="text/javascript" src="entrada_files/smart.js"></script></center></div>
+        <div class="clear"></div>
+        
+        <!-- Posts tabs widget -->
+        <div class="widget posts-tabs">
+            <dl class="tabs contained">
+                <dd class="active"><a href="#LibRec"><i class="icon-ok"></i>Posts Recientes</a></dd>
+                <dd><a href="#LibPop"><i class="icon-heart"></i>Posts Populares</a></dd>
+                <dd><a href="#LibAz"><i class="icon-repeat"></i>Posts al azar</a></dd>
+                <dd><a href="#LibCom"><i class="icon-comments"></i>Comentarios</a></dd>
+                <dd><a href="#LibTags"><i class="icon-tags"></i>Tags</a></dd>
+            </dl>
+            <ul class="tabs-content contained">
+
+                <!--Recent posts-->
+                <li class="active" id="LibRecTab">
+
+         
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/libros/una-dama-nunca-miente-juliana-gray.html" title="Enlace a Una Dama Nunca Miente – Juliana Gray" rel="bookmark"><img src="entrada_files/81a3fc585969d059ba2e894be1d40fa94ade6a95-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/libros/una-dama-nunca-miente-juliana-gray.html" title="Enlace a Una Dama Nunca Miente – Juliana Gray" rel="bookmark">Una Dama Nunca Miente – Juliana Gray</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/libros/una-dama-nunca-miente-juliana-gray.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Una%20Dama%20Nunca%20Miente%20%E2%80%93%20Juliana%20Gray&amp;url=http://www.freelibros.org/libros/una-dama-nunca-miente-juliana-gray.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/libros/una-dama-nunca-miente-juliana-gray.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/libros/la-amante-de-su-hermano-juliet-landon.html" title="Enlace a La amante de su hermano – Juliet landon" rel="bookmark"><img src="entrada_files/46fc06fb4af8de6785a47635a170e7052dc8c9bb-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/libros/la-amante-de-su-hermano-juliet-landon.html" title="Enlace a La amante de su hermano – Juliet landon" rel="bookmark">La amante de su hermano – Juliet landon</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/libros/la-amante-de-su-hermano-juliet-landon.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=La%20amante%20de%20su%20hermano%20%E2%80%93%20Juliet%20landon&amp;url=http://www.freelibros.org/libros/la-amante-de-su-hermano-juliet-landon.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/libros/la-amante-de-su-hermano-juliet-landon.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/libros/a-night-like-this-julia-quinn.html" title="Enlace a A Night Like This – Julia Quinn" rel="bookmark"><img src="entrada_files/7e83e2187e38f3eca3fc6e21e88b86cf176b25f8-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/libros/a-night-like-this-julia-quinn.html" title="Enlace a A Night Like This – Julia Quinn" rel="bookmark">A Night Like This – Julia Quinn</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/libros/a-night-like-this-julia-quinn.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=A%20Night%20Like%20This%20%E2%80%93%20Julia%20Quinn&amp;url=http://www.freelibros.org/libros/a-night-like-this-julia-quinn.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/libros/a-night-like-this-julia-quinn.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/diseno-web/aplicaciones-web-grado-medio-2012.html" title="Enlace a Aplicaciones Web – Grado Medio 2012" rel="bookmark"><img src="entrada_files/4027b3e7f27ff42cc45ec1ade3be1aa66afec269-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/diseno-web/aplicaciones-web-grado-medio-2012.html" title="Enlace a Aplicaciones Web – Grado Medio 2012" rel="bookmark">Aplicaciones Web – Grado Medio 2012</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/diseno-web/aplicaciones-web-grado-medio-2012.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Aplicaciones%20Web%20%E2%80%93%20Grado%20Medio%202012&amp;url=http://www.freelibros.org/diseno-web/aplicaciones-web-grado-medio-2012.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/diseno-web/aplicaciones-web-grado-medio-2012.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/marketing/lecciones-para-emprendedores-citas-y-reflexiones-para-triunfar.html" title="Enlace a Lecciones para emprendedores: Citas y reflexiones para triunfar" rel="bookmark"><img src="entrada_files/d944199e836560d96ccbb1188f0045a976832ea4-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/marketing/lecciones-para-emprendedores-citas-y-reflexiones-para-triunfar.html" title="Enlace a Lecciones para emprendedores: Citas y reflexiones para triunfar" rel="bookmark">Lecciones para emprendedores: Citas y reflexiones para triunfar</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/marketing/lecciones-para-emprendedores-citas-y-reflexiones-para-triunfar.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Lecciones%20para%20emprendedores:%20Citas%20y%20reflexiones%20para%20triunfar&amp;url=http://www.freelibros.org/marketing/lecciones-para-emprendedores-citas-y-reflexiones-para-triunfar.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/marketing/lecciones-para-emprendedores-citas-y-reflexiones-para-triunfar.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                            
+                </li>
+
+                <!--Popular posts-->
+                <li id="LibPopTab">
+         
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/solucionario/solucionario-de-muchos-libros-problemas-resueltos-paso-por-paso.html" title="Enlace a Solucionario de muchos libros, problemas resueltos paso por paso" rel="bookmark"><img src="entrada_files/980c36d90ef4d8e66bf6227c655eef90a2dd29a9-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/solucionario/solucionario-de-muchos-libros-problemas-resueltos-paso-por-paso.html" title="Enlace a Solucionario de muchos libros, problemas resueltos paso por paso" rel="bookmark">Solucionario de muchos libros, problemas resueltos paso por paso</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/solucionario/solucionario-de-muchos-libros-problemas-resueltos-paso-por-paso.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Solucionario%20de%20muchos%20libros,%20problemas%20resueltos%20paso%20por%20paso&amp;url=http://www.freelibros.org/solucionario/solucionario-de-muchos-libros-problemas-resueltos-paso-por-paso.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/solucionario/solucionario-de-muchos-libros-problemas-resueltos-paso-por-paso.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/noticias/vota-por-nuestro-blog.html" title="Enlace a Vota por nuestro Blog" rel="bookmark"><img src="entrada_files/Btgrande01-72x70.png" class=" wp-post-image" alt="Btgrande01" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/noticias/vota-por-nuestro-blog.html" title="Enlace a Vota por nuestro Blog" rel="bookmark">Vota por nuestro Blog</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/noticias/vota-por-nuestro-blog.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Vota%20por%20nuestro%20Blog&amp;url=http://www.freelibros.org/noticias/vota-por-nuestro-blog.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/noticias/vota-por-nuestro-blog.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/libros/mas-de-700-libros-para-descargar.html" title="Enlace a Más de 700 libros para descargar" rel="bookmark"><img src="entrada_files/504dac014fa62c1a104e66e4c7f428b177f38f2e-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/libros/mas-de-700-libros-para-descargar.html" title="Enlace a Más de 700 libros para descargar" rel="bookmark">Más de 700 libros para descargar</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/libros/mas-de-700-libros-para-descargar.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=M%C3%A1s%20de%20700%20libros%20para%20descargar&amp;url=http://www.freelibros.org/libros/mas-de-700-libros-para-descargar.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/libros/mas-de-700-libros-para-descargar.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/fisica/fisica-serway-volumen-1-volumen-2-solucionario.html" title="Enlace a Fisica Serway – Volumen 1 + Volumen 2 + Solucionario" rel="bookmark"><img src="entrada_files/d4c4320e54f40b3d818da599903e242955a743a6-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/fisica/fisica-serway-volumen-1-volumen-2-solucionario.html" title="Enlace a Fisica Serway – Volumen 1 + Volumen 2 + Solucionario" rel="bookmark">Fisica Serway – Volumen 1 + Volumen 2 + Solucionario</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/fisica/fisica-serway-volumen-1-volumen-2-solucionario.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Fisica%20Serway%20%E2%80%93%20Volumen%201%20+%20Volumen%202%20+%20Solucionario&amp;url=http://www.freelibros.org/fisica/fisica-serway-volumen-1-volumen-2-solucionario.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/fisica/fisica-serway-volumen-1-volumen-2-solucionario.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/audiolibro/ingles-sin-barreras-v2007.html" title="Enlace a Inglés sin Barreras v2007" rel="bookmark"><img src="entrada_files/902e4425af49c185e8fa4d32a0370dfde82b8b27-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/audiolibro/ingles-sin-barreras-v2007.html" title="Enlace a Inglés sin Barreras v2007" rel="bookmark">Inglés sin Barreras v2007</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/audiolibro/ingles-sin-barreras-v2007.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Ingl%C3%A9s%20sin%20Barreras%20v2007&amp;url=http://www.freelibros.org/audiolibro/ingles-sin-barreras-v2007.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/audiolibro/ingles-sin-barreras-v2007.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                            
+                </li>
+
+                <!--Random posts-->
+                <li id="LibAzTab">
+
+         
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/videotutoriales/introduccion-a-adobe-flex-4-trabajando-con-flash-builder-4-en-espanol-video2brain.html" title="Enlace a Introducción a Adobe Flex 4: Trabajando con Flash Builder 4 EN ESPAÑOL [ Video2Brain ]" rel="bookmark"><img src="entrada_files/ca33b4f64da2cd36b59ec6316888a3ba95a908f8-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/videotutoriales/introduccion-a-adobe-flex-4-trabajando-con-flash-builder-4-en-espanol-video2brain.html" title="Enlace a Introducción a Adobe Flex 4: Trabajando con Flash Builder 4 EN ESPAÑOL [ Video2Brain ]" rel="bookmark">Introducción a Adobe Flex 4: Trabajando con Flash Builder 4 EN ESPAÑOL [ Video2Brain ]</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                            
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/videotutoriales/introduccion-a-adobe-flex-4-trabajando-con-flash-builder-4-en-espanol-video2brain.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Introducci%C3%B3n%20a%20Adobe%20Flex%204:%20Trabajando%20con%20Flash%20Builder%204%20EN%20ESPA%C3%91OL%20[%20Video2Brain%20]&amp;url=http://www.freelibros.org/videotutoriales/introduccion-a-adobe-flex-4-trabajando-con-flash-builder-4-en-espanol-video2brain.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/videotutoriales/introduccion-a-adobe-flex-4-trabajando-con-flash-builder-4-en-espanol-video2brain.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/libros/solitaria-luna-de-miel-leigh-michaels.html" title="Enlace a Solitaria Luna De Miel – Leigh Michaels" rel="bookmark"><img src="entrada_files/61fa3c37598e4780f427fb2a3e902845c0b872bc-72x70.png" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/libros/solitaria-luna-de-miel-leigh-michaels.html" title="Enlace a Solitaria Luna De Miel – Leigh Michaels" rel="bookmark">Solitaria Luna De Miel – Leigh Michaels</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                            
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/libros/solitaria-luna-de-miel-leigh-michaels.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Solitaria%20Luna%20De%20Miel%20%E2%80%93%20Leigh%20Michaels&amp;url=http://www.freelibros.org/libros/solitaria-luna-de-miel-leigh-michaels.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/libros/solitaria-luna-de-miel-leigh-michaels.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/e-books/migrating-applications-to-ipv6.html" title="Enlace a Migrating Applications to IPv6" rel="bookmark"><img src="entrada_files/d695ac9a187727eb0fc027ae9cf4dfc0f7eab6b7-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/e-books/migrating-applications-to-ipv6.html" title="Enlace a Migrating Applications to IPv6" rel="bookmark">Migrating Applications to IPv6</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                            
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/e-books/migrating-applications-to-ipv6.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Migrating%20Applications%20to%20IPv6&amp;url=http://www.freelibros.org/e-books/migrating-applications-to-ipv6.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/e-books/migrating-applications-to-ipv6.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/cocina/recetario-de-la-cocina-mexicana.html" title="Enlace a Recetario de la Cocina Mexicana" rel="bookmark"><img src="entrada_files/1619fde55bdc731fa529d91581b324087e69c799-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/cocina/recetario-de-la-cocina-mexicana.html" title="Enlace a Recetario de la Cocina Mexicana" rel="bookmark">Recetario de la Cocina Mexicana</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                            
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/cocina/recetario-de-la-cocina-mexicana.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Recetario%20de%20la%20Cocina%20Mexicana&amp;url=http://www.freelibros.org/cocina/recetario-de-la-cocina-mexicana.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/cocina/recetario-de-la-cocina-mexicana.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                             
+                            <article>
+                                <!--Thumbnail-->
+                                <div class="entry-thumbnail">
+                                    <a href="http://www.freelibros.org/libros/hechicera-serie-medieval-elizabeth-lowell.html" title="Enlace a Hechicera – Serie Medieval – Elizabeth Lowell" rel="bookmark"><img src="entrada_files/573a52386745d67a1e1d92aa58ff9de5c140f683-72x70.jpg" class="attachment-posts-tabs-thumbs wp-post-image" array="" height="70" width="72"></a>
+                                </div>
+
+                                <h3 class="entry-title">
+                                    <a href="http://www.freelibros.org/libros/hechicera-serie-medieval-elizabeth-lowell.html" title="Enlace a Hechicera – Serie Medieval – Elizabeth Lowell" rel="bookmark">Hechicera – Serie Medieval – Elizabeth Lowell</a>
+                                </h3>                
+
+                                <!--Tiny share buttons - horizontal-->
+
+                            
+    <div class="share-buttons horizontal  tiny ">
+
+                        <div class="facebook sharrre"><div class="box"><div class="share">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.freelibros.org/libros/hechicera-serie-medieval-elizabeth-lowell.html" target="_blank"><i class="icon-facebook"></i></a>
+                        </div></div></div>
+                            <div class="twitter sharrre"><div class="box"><div class="share">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=Hechicera%20%E2%80%93%20Serie%20Medieval%20%E2%80%93%20Elizabeth%20Lowell&amp;url=http://www.freelibros.org/libros/hechicera-serie-medieval-elizabeth-lowell.html&amp;via=Freelibros"><i class="icon-twitter"></i></a>
+                        </div></div></div>
+
+                            <div class="googleplus sharrre"><div class="box"><div class="share">
+                            <a href="https://plus.google.com/share?hl=es-ES&amp;url=http://www.freelibros.org/libros/hechicera-serie-medieval-elizabeth-lowell.html" target="_blank"><i class="icon-google-plus"></i></a>
+                        </div></div></div>
+            
+    </div>
+
+    
+                                <div class="clear"></div>
+                            </article>
+                            
+                </li>
+
+                <!--Comments-->
+                <li id="LibComTab">
+        <div class="widget widget_recent_comments"><h2 class="widgettitle">Comentarios recientes</h2><ul id="recentcomments"><li class="recentcomments">DavidPaco en <a href="http://www.freelibros.org/programacion/resolucion-de-problemas-con-c-5ta-edicion-walter-savitch.html/comment-page-1#comment-184553">Resolución de problemas con C++, 5ta Edición – Walter Savitch</a></li><li class="recentcomments"><a href="http://www.freelibros.com/" rel="external nofollow" class="url">Priale</a> en <a href="http://www.freelibros.org/psicologia/tests-psicologicos-y-evaluacion-11va-edicon-lewis-r-aiken.html/comment-page-1#comment-184550">Tests psicológicos y evaluación, 11va Edicón – Lewis R. Aiken</a></li><li class="recentcomments">ximena en <a href="http://www.freelibros.org/psicologia/tests-psicologicos-y-evaluacion-11va-edicon-lewis-r-aiken.html/comment-page-1#comment-184549">Tests psicológicos y evaluación, 11va Edicón – Lewis R. Aiken</a></li><li class="recentcomments">RENE en <a href="http://www.freelibros.org/revistas/computer-hoy-n-403-especial-seguridad-15-marzo-2014.html/comment-page-1#comment-184547">Computer Hoy N° 403 – Especial Seguridad – 15 Marzo 2014</a></li><li class="recentcomments">dense_06 en <a href="http://www.freelibros.org/metod-de-la-investigacion/investigacion-fundamentos-y-metodologia-alma-del-cid-rosemary-mendez-y-franco-sandoval.html/comment-page-1#comment-184546">Investigación: Fundamentos y Metodología – Alma del Cid, Rosemary Méndez y Franco Sandoval</a></li></ul></div>                </li>
+
+                <!--Tags cloud-->
+                <li id="LibTagsTab">
+        <div class="widget widget_tag_cloud"><h2 class="widgettitle">Etiquetas</h2><div class="tagcloud"><a href="http://www.freelibros.org/tag/2da-edicion" class="tag-link-14745" title="49 temas" style="font-size: 9.55555555556pt;">2da Edición</a>
+<a href="http://www.freelibros.org/tag/3ra-edicion" class="tag-link-14189" title="40 temas" style="font-size: 8.73202614379pt;">3ra Edición</a>
+<a href="http://www.freelibros.org/tag/2010" class="tag-link-2873" title="45 temas" style="font-size: 9.18954248366pt;">2010</a>
+<a href="http://www.freelibros.org/tag/2011" class="tag-link-2802" title="374 temas" style="font-size: 17.5163398693pt;">2011</a>
+<a href="http://www.freelibros.org/tag/2012" class="tag-link-6803" title="300 temas" style="font-size: 16.6928104575pt;">2012</a>
+<a href="http://www.freelibros.org/tag/abril" class="tag-link-3881" title="37 temas" style="font-size: 8.45751633987pt;">Abril</a>
+<a href="http://www.freelibros.org/tag/april" class="tag-link-2151" title="100 temas" style="font-size: 12.3006535948pt;">April</a>
+<a href="http://www.freelibros.org/tag/august" class="tag-link-6532" title="44 temas" style="font-size: 9.09803921569pt;">August</a>
+<a href="http://www.freelibros.org/tag/barbara-cartland" class="tag-link-1120" title="121 temas" style="font-size: 13.1241830065pt;">Barbara Cartland</a>
+<a href="http://www.freelibros.org/tag/c" class="tag-link-2039" title="48 temas" style="font-size: 9.46405228758pt;">C++</a>
+<a href="http://www.freelibros.org/tag/christine-feehan" class="tag-link-266" title="54 temas" style="font-size: 9.92156862745pt;">Christine Feehan</a>
+<a href="http://www.freelibros.org/tag/diana-palmer" class="tag-link-10978" title="55 temas" style="font-size: 10.0130718954pt;">Diana Palmer</a>
+<a href="http://www.freelibros.org/tag/elpais" class="tag-link-2809" title="103 temas" style="font-size: 12.4836601307pt;">El País</a>
+<a href="http://www.freelibros.org/tag/february" class="tag-link-1563" title="201 temas" style="font-size: 15.137254902pt;">February</a>
+<a href="http://www.freelibros.org/tag/gratis" class="tag-link-12800" title="133 temas" style="font-size: 13.4901960784pt;">Gratis</a>
+<a href="http://www.freelibros.org/tag/hardware" class="tag-link-652" title="37 temas" style="font-size: 8.45751633987pt;">Hardware</a>
+<a href="http://www.freelibros.org/tag/internet" class="tag-link-639" title="42 temas" style="font-size: 8.91503267974pt;">Internet</a>
+<a href="http://www.freelibros.org/tag/january" class="tag-link-1572" title="68 temas" style="font-size: 10.8366013072pt;">January</a>
+<a href="http://www.freelibros.org/tag/java" class="tag-link-207" title="67 temas" style="font-size: 10.7450980392pt;">Java</a>
+<a href="http://www.freelibros.org/tag/laurell-k-hamilton" class="tag-link-2212" title="34 temas" style="font-size: 8.09150326797pt;">Laurell K. Hamilton</a>
+<a href="http://www.freelibros.org/tag/linux" class="tag-link-49" title="34 temas" style="font-size: 8.09150326797pt;">Linux</a>
+<a href="http://www.freelibros.org/tag/lora-leigh" class="tag-link-295" title="67 temas" style="font-size: 10.7450980392pt;">Lora Leigh</a>
+<a href="http://www.freelibros.org/tag/manga" class="tag-link-201" title="34 temas" style="font-size: 8.09150326797pt;">Manga</a>
+<a href="http://www.freelibros.org/tag/manuales-users" class="tag-link-18372" title="37 temas" style="font-size: 8.45751633987pt;">Manuales USERS</a>
+<a href="http://www.freelibros.org/tag/march" class="tag-link-1566" title="213 temas" style="font-size: 15.3202614379pt;">March</a>
+<a href="http://www.freelibros.org/tag/marzo" class="tag-link-2810" title="77 temas" style="font-size: 11.2941176471pt;">Marzo</a>
+<a href="http://www.freelibros.org/tag/may" class="tag-link-2773" title="74 temas" style="font-size: 11.2026143791pt;">May</a>
+<a href="http://www.freelibros.org/tag/mega" class="tag-link-13233" title="35 temas" style="font-size: 8.27450980392pt;">Mega</a>
+<a href="http://www.freelibros.org/tag/meg-cabot" class="tag-link-331" title="38 temas" style="font-size: 8.54901960784pt;">Meg Cabot</a>
+<a href="http://www.freelibros.org/tag/naruto" class="tag-link-486" title="148 temas" style="font-size: 13.8562091503pt;">Naruto</a>
+<a href="http://www.freelibros.org/tag/nora-roberts" class="tag-link-287" title="64 temas" style="font-size: 10.5620915033pt;">Nora Roberts</a>
+<a href="http://www.freelibros.org/tag/novela" class="tag-link-187" title="1.155 temas" style="font-size: 22pt;">Novelas</a>
+<a href="http://www.freelibros.org/tag/pdf" class="tag-link-8465" title="40 temas" style="font-size: 8.73202614379pt;">pdf</a>
+<a href="http://www.freelibros.org/tag/photoshop" class="tag-link-334" title="33 temas" style="font-size: 8pt;">Photoshop</a>
+<a href="http://www.freelibros.org/tag/playboy" class="tag-link-1567" title="71 temas" style="font-size: 11.0196078431pt;">Playboy</a>
+<a href="http://www.freelibros.org/tag/problemas" class="tag-link-268" title="52 temas" style="font-size: 9.7385620915pt;">Problemas</a>
+<a href="http://www.freelibros.org/tag/programacion" class="tag-link-9" title="35 temas" style="font-size: 8.27450980392pt;">Programación</a>
+<a href="http://www.freelibros.org/tag/romantica" class="tag-link-205" title="69 temas" style="font-size: 10.9281045752pt;">Romantica</a>
+<a href="http://www.freelibros.org/tag/software" class="tag-link-691" title="35 temas" style="font-size: 8.27450980392pt;">Software</a>
+<a href="http://www.freelibros.org/tag/stephen-king" class="tag-link-1266" title="62 temas" style="font-size: 10.4705882353pt;">Stephen King</a>
+<a href="http://www.freelibros.org/tag/susan-mallery" class="tag-link-2280" title="33 temas" style="font-size: 8pt;">Susan Mallery</a>
+<a href="http://www.freelibros.org/tag/tejer-la-moda" class="tag-link-13978" title="44 temas" style="font-size: 9.09803921569pt;">Tejer la Moda</a>
+<a href="http://www.freelibros.org/tag/todo-para-bebes" class="tag-link-9867" title="37 temas" style="font-size: 8.45751633987pt;">Todo para bebes</a>
+<a href="http://www.freelibros.org/tag/uoc" class="tag-link-10189" title="87 temas" style="font-size: 11.7516339869pt;">UOC</a>
+<a href="http://www.freelibros.org/tag/users" class="tag-link-4061" title="70 temas" style="font-size: 10.9281045752pt;">USERS</a></div>
+</div>                </li>
+
+            </ul>
+        </div> 
+
+        <div id="categories-2" class="widget widget_categories"><h4 class="title">Categorías</h4>		<ul>
+	<li class="cat-item cat-item-31"><a href="http://www.freelibros.org/category/administracion" title="Ver todas las entradas archivadas en Administración">Administración</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="http://www.freelibros.org/category/algebra" title="Ver todas las entradas archivadas en Álgebra">Álgebra</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://www.freelibros.org/category/analisis-matematico" title="Ver todas las entradas archivadas en Análisis Matemático">Análisis Matemático</a>
+</li>
+	<li class="cat-item cat-item-100"><a href="http://www.freelibros.org/category/anatomia" title="Ver todas las entradas archivadas en Anatomia">Anatomia</a>
+</li>
+	<li class="cat-item cat-item-70"><a href="http://www.freelibros.org/category/arquitectura" title="Ver todas las entradas archivadas en Arquitectura">Arquitectura</a>
+</li>
+	<li class="cat-item cat-item-1413"><a href="http://www.freelibros.org/category/arte" title="Ver todas las entradas archivadas en Arte">Arte</a>
+</li>
+	<li class="cat-item cat-item-90"><a href="http://www.freelibros.org/category/astronomia" title="Ver todas las entradas archivadas en Astronomía">Astronomía</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.freelibros.org/category/atlas" title="Ver todas las entradas archivadas en Atlas">Atlas</a>
+</li>
+	<li class="cat-item cat-item-8559"><a href="http://www.freelibros.org/category/audiobook" title="Ver todas las entradas archivadas en AudioBook">AudioBook</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.freelibros.org/category/audiolibro" title="Ver todas las entradas archivadas en AudioLibros">AudioLibros</a>
+</li>
+	<li class="cat-item cat-item-149"><a href="http://www.freelibros.org/category/automatizacion" title="Ver todas las entradas archivadas en Automatización">Automatización</a>
+</li>
+	<li class="cat-item cat-item-76"><a href="http://www.freelibros.org/category/base-de-datos" title="Ver todas las entradas archivadas en Base de Datos">Base de Datos</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.freelibros.org/category/biblia" title="Ver todas las entradas archivadas en Biblia">Biblia</a>
+</li>
+	<li class="cat-item cat-item-56"><a href="http://www.freelibros.org/category/biologia" title="Ver todas las entradas archivadas en Biología">Biología</a>
+</li>
+	<li class="cat-item cat-item-110"><a href="http://www.freelibros.org/category/bioquimica" title="Ver todas las entradas archivadas en Bioquímica">Bioquímica</a>
+</li>
+	<li class="cat-item cat-item-11666"><a href="http://www.freelibros.org/category/botanica" title="Ver todas las entradas archivadas en Botánica">Botánica</a>
+</li>
+	<li class="cat-item cat-item-52"><a href="http://www.freelibros.org/category/calculo" title="Ver todas las entradas archivadas en Cálculo">Cálculo</a>
+</li>
+	<li class="cat-item cat-item-74"><a href="http://www.freelibros.org/category/circuitos" title="Ver todas las entradas archivadas en Circuitos">Circuitos</a>
+</li>
+	<li class="cat-item cat-item-140"><a href="http://www.freelibros.org/category/cirugia" title="Ver todas las entradas archivadas en Cirugia">Cirugia</a>
+</li>
+	<li class="cat-item cat-item-112"><a href="http://www.freelibros.org/category/cocina" title="Ver todas las entradas archivadas en Cocina">Cocina</a>
+</li>
+	<li class="cat-item cat-item-447"><a href="http://www.freelibros.org/category/comic" title="Ver todas las entradas archivadas en Comic">Comic</a>
+</li>
+	<li class="cat-item cat-item-109"><a href="http://www.freelibros.org/category/contabilidad" title="Ver todas las entradas archivadas en Contabilidad">Contabilidad</a>
+</li>
+	<li class="cat-item cat-item-22590"><a href="http://www.freelibros.org/category/salud/deportes" title="Ver todas las entradas archivadas en Deportes">Deportes</a>
+</li>
+	<li class="cat-item cat-item-156"><a href="http://www.freelibros.org/category/derecho" title="Ver todas las entradas archivadas en Derecho">Derecho</a>
+</li>
+	<li class="cat-item cat-item-134"><a href="http://www.freelibros.org/category/dermatologia" title="Ver todas las entradas archivadas en Dermatologia">Dermatologia</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://www.freelibros.org/category/diccionario" title="Ver todas las entradas archivadas en Diccionario">Diccionario</a>
+</li>
+	<li class="cat-item cat-item-7948"><a href="http://www.freelibros.org/category/dinamica" title="Ver todas las entradas archivadas en Dinámica">Dinámica</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.freelibros.org/category/diseno-grafico" title="Ver todas las entradas archivadas en Diseño Grafico">Diseño Grafico</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.freelibros.org/category/diseno-web" title="Ver todas las entradas archivadas en Diseño Web">Diseño Web</a>
+</li>
+	<li class="cat-item cat-item-129"><a href="http://www.freelibros.org/category/documentales" title="Ver todas las entradas archivadas en Documentales">Documentales</a>
+</li>
+	<li class="cat-item cat-item-1062"><a href="http://www.freelibros.org/category/ecografia" title="Ver todas las entradas archivadas en Ecografía">Ecografía</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.freelibros.org/category/ecologia" title="Ver todas las entradas archivadas en Ecología">Ecología</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="http://www.freelibros.org/category/economia" title="Ver todas las entradas archivadas en Economía">Economía</a>
+</li>
+	<li class="cat-item cat-item-60"><a href="http://www.freelibros.org/category/ecuaciones-diferenciales" title="Ver todas las entradas archivadas en Ecuaciones diferenciales">Ecuaciones diferenciales</a>
+</li>
+	<li class="cat-item cat-item-108"><a href="http://www.freelibros.org/category/educacion-primaria" title="Ver todas las entradas archivadas en Educación Primaria">Educación Primaria</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.freelibros.org/category/electricidad" title="Ver todas las entradas archivadas en Electricidad">Electricidad</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.freelibros.org/category/electronica" title="Ver todas las entradas archivadas en Electrónica">Electrónica</a>
+</li>
+	<li class="cat-item cat-item-82"><a href="http://www.freelibros.org/category/enciclopedia" title="Ver todas las entradas archivadas en Enciclopedia">Enciclopedia</a>
+</li>
+	<li class="cat-item cat-item-199"><a href="http://www.freelibros.org/category/estadistica" title="Ver todas las entradas archivadas en Estadística">Estadística</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://www.freelibros.org/category/filosofia" title="Ver todas las entradas archivadas en Filosofía">Filosofía</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="http://www.freelibros.org/category/fisica" title="Ver todas las entradas archivadas en Física">Física</a>
+</li>
+	<li class="cat-item cat-item-111"><a href="http://www.freelibros.org/category/fisiologia" title="Ver todas las entradas archivadas en Fisiología">Fisiología</a>
+</li>
+	<li class="cat-item cat-item-78"><a href="http://www.freelibros.org/category/ganar-dinero-en-internet" title="Ver todas las entradas archivadas en Ganar dinero en internet">Ganar dinero en internet</a>
+</li>
+	<li class="cat-item cat-item-19452"><a href="http://www.freelibros.org/category/geografia" title="Ver todas las entradas archivadas en Geografía">Geografía</a>
+</li>
+	<li class="cat-item cat-item-119"><a href="http://www.freelibros.org/category/geologia" title="Ver todas las entradas archivadas en Geologia">Geologia</a>
+</li>
+	<li class="cat-item cat-item-51"><a href="http://www.freelibros.org/category/geometria" title="Ver todas las entradas archivadas en Geometria">Geometria</a>
+</li>
+	<li class="cat-item cat-item-138"><a href="http://www.freelibros.org/category/ginecologia-y-obstetricia" title="Ver todas las entradas archivadas en Ginecología y Obstetricia">Ginecología y Obstetricia</a>
+</li>
+	<li class="cat-item cat-item-45"><a href="http://www.freelibros.org/category/guias" title="Ver todas las entradas archivadas en Guias">Guias</a>
+</li>
+	<li class="cat-item cat-item-72"><a href="http://www.freelibros.org/category/hackcrack" title="Ver todas las entradas archivadas en HackCrack">HackCrack</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.freelibros.org/category/hidraulica" title="Ver todas las entradas archivadas en Hidráulica">Hidráulica</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.freelibros.org/category/historia" title="Ver todas las entradas archivadas en Historia">Historia</a>
+</li>
+	<li class="cat-item cat-item-20804"><a href="http://www.freelibros.org/category/idiomas" title="Ver todas las entradas archivadas en Idiomas">Idiomas</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.freelibros.org/category/ingenieria" title="Ver todas las entradas archivadas en Ingenieria">Ingenieria</a>
+</li>
+	<li class="cat-item cat-item-3153"><a href="http://www.freelibros.org/category/ingenieria-ambiental" title="Ver todas las entradas archivadas en Ingenieria ambiental">Ingenieria ambiental</a>
+</li>
+	<li class="cat-item cat-item-69"><a href="http://www.freelibros.org/category/ingenieria-civil" title="Ver todas las entradas archivadas en Ingenieria Civil">Ingenieria Civil</a>
+</li>
+	<li class="cat-item cat-item-63"><a href="http://www.freelibros.org/category/ingenieria-de-materiales" title="Ver todas las entradas archivadas en Ingeniería de Materiales">Ingeniería de Materiales</a>
+</li>
+	<li class="cat-item cat-item-68"><a href="http://www.freelibros.org/category/ingenieria-de-minas" title="Ver todas las entradas archivadas en Ingenieria de Minas">Ingenieria de Minas</a>
+</li>
+	<li class="cat-item cat-item-62"><a href="http://www.freelibros.org/category/ingenieria-industrial" title="Ver todas las entradas archivadas en Ingeniería Industrial">Ingeniería Industrial</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="http://www.freelibros.org/category/ingenieria-petrolera" title="Ver todas las entradas archivadas en Ingenieria Petrolera">Ingenieria Petrolera</a>
+</li>
+	<li class="cat-item cat-item-59"><a href="http://www.freelibros.org/category/integrales" title="Ver todas las entradas archivadas en Integrales">Integrales</a>
+</li>
+	<li class="cat-item cat-item-104"><a href="http://www.freelibros.org/category/inv-operaciones" title="Ver todas las entradas archivadas en Inv. Operaciones">Inv. Operaciones</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.freelibros.org/category/liderazgo-y-motivacion" title="Ver todas las entradas archivadas en Liderazgo y Motivación">Liderazgo y Motivación</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="http://www.freelibros.org/category/linux" title="Ver todas las entradas archivadas en Linux">Linux</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="http://www.freelibros.org/category/logistica" title="Ver todas las entradas archivadas en Logistica">Logistica</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://www.freelibros.org/category/maestra-infantil" title="Ver todas las entradas archivadas en Maestra Infantil">Maestra Infantil</a>
+</li>
+	<li class="cat-item cat-item-1839"><a href="http://www.freelibros.org/category/magazine" title="Ver todas las entradas archivadas en Magazine">Magazine</a>
+</li>
+	<li class="cat-item cat-item-201"><a href="http://www.freelibros.org/category/revistas/manga" title="Ver todas las entradas archivadas en Manga">Manga</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://www.freelibros.org/category/manual" title="Ver todas las entradas archivadas en Manuales">Manuales</a>
+</li>
+	<li class="cat-item cat-item-123"><a href="http://www.freelibros.org/category/manualidades" title="Ver todas las entradas archivadas en Manualidades">Manualidades</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.freelibros.org/category/marketing" title="Ver todas las entradas archivadas en Marketing">Marketing</a>
+</li>
+	<li class="cat-item cat-item-53"><a href="http://www.freelibros.org/category/matematica-discreta" title="Ver todas las entradas archivadas en Matemática Discreta">Matemática Discreta</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://www.freelibros.org/category/matematicas" title="Ver todas las entradas archivadas en Matemáticas">Matemáticas</a>
+</li>
+	<li class="cat-item cat-item-114"><a href="http://www.freelibros.org/category/mecanica" title="Ver todas las entradas archivadas en Mecánica">Mecánica</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.freelibros.org/category/medicina" title="Ver todas las entradas archivadas en Medicina">Medicina</a>
+</li>
+	<li class="cat-item cat-item-65"><a href="http://www.freelibros.org/category/metalurgia" title="Ver todas las entradas archivadas en Metalurgia">Metalurgia</a>
+</li>
+	<li class="cat-item cat-item-18343"><a href="http://www.freelibros.org/category/metod-de-la-investigacion" title="Ver todas las entradas archivadas en Metod. de la Investigación">Metod. de la Investigación</a>
+</li>
+	<li class="cat-item cat-item-44"><a href="http://www.freelibros.org/category/multimedia" title="Ver todas las entradas archivadas en Multimedia">Multimedia</a>
+</li>
+	<li class="cat-item cat-item-327"><a href="http://www.freelibros.org/category/arte/musica" title="Ver todas las entradas archivadas en Musica">Musica</a>
+</li>
+	<li class="cat-item cat-item-130"><a href="http://www.freelibros.org/category/odontologia" title="Ver todas las entradas archivadas en Odontologia">Odontologia</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://www.freelibros.org/category/ofimatica" title="Ver todas las entradas archivadas en Ofimatica">Ofimatica</a>
+</li>
+	<li class="cat-item cat-item-151"><a href="http://www.freelibros.org/category/oftalmologia" title="Ver todas las entradas archivadas en Oftalmología">Oftalmología</a>
+</li>
+	<li class="cat-item cat-item-107"><a href="http://www.freelibros.org/category/pediatria" title="Ver todas las entradas archivadas en Pediatría">Pediatría</a>
+</li>
+	<li class="cat-item cat-item-118"><a href="http://www.freelibros.org/category/procesos-unitarios" title="Ver todas las entradas archivadas en Procesos Unitarios">Procesos Unitarios</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.freelibros.org/category/programacion" title="Ver todas las entradas archivadas en Programación">Programación</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="http://www.freelibros.org/category/psicologia" title="Ver todas las entradas archivadas en Psicología">Psicología</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.freelibros.org/category/quimica" title="Ver todas las entradas archivadas en Química">Química</a>
+</li>
+	<li class="cat-item cat-item-137"><a href="http://www.freelibros.org/category/radiologia" title="Ver todas las entradas archivadas en Radiología">Radiología</a>
+</li>
+	<li class="cat-item cat-item-113"><a href="http://www.freelibros.org/category/recetas" title="Ver todas las entradas archivadas en Recetas">Recetas</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://www.freelibros.org/category/redes" title="Ver todas las entradas archivadas en Redes">Redes</a>
+</li>
+	<li class="cat-item cat-item-820"><a href="http://www.freelibros.org/category/religion" title="Ver todas las entradas archivadas en Religión">Religión</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://www.freelibros.org/category/revistas" title="Ver todas las entradas archivadas en Revistas">Revistas</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.freelibros.org/category/rincon-literario" title="Ver todas las entradas archivadas en Rincón Literario">Rincón Literario</a>
+</li>
+	<li class="cat-item cat-item-58"><a href="http://www.freelibros.org/category/robotica" title="Ver todas las entradas archivadas en Robotica">Robotica</a>
+</li>
+	<li class="cat-item cat-item-205"><a href="http://www.freelibros.org/category/romantica" title="Ver todas las entradas archivadas en Romantica">Romantica</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.freelibros.org/category/salud" title="Ver todas las entradas archivadas en Salud">Salud</a>
+</li>
+	<li class="cat-item cat-item-42"><a href="http://www.freelibros.org/category/seguridad" title="Ver todas las entradas archivadas en Seguridad">Seguridad</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="http://www.freelibros.org/category/sexualidad" title="Ver todas las entradas archivadas en Sexualidad">Sexualidad</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.freelibros.org/category/sistemas-operativos" title="Ver todas las entradas archivadas en Sistemas Operativos">Sistemas Operativos</a>
+</li>
+	<li class="cat-item cat-item-127"><a href="http://www.freelibros.org/category/soldadura" title="Ver todas las entradas archivadas en Soldadura">Soldadura</a>
+</li>
+	<li class="cat-item cat-item-61"><a href="http://www.freelibros.org/category/solucionario" title="Ver todas las entradas archivadas en Solucionario">Solucionario</a>
+</li>
+	<li class="cat-item cat-item-122"><a href="http://www.freelibros.org/category/termodinamica" title="Ver todas las entradas archivadas en Termodinámica">Termodinámica</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.freelibros.org/category/tesis" title="Ver todas las entradas archivadas en Tésis">Tésis</a>
+</li>
+	<li class="cat-item cat-item-75"><a href="http://www.freelibros.org/category/topografia" title="Ver todas las entradas archivadas en Topografia">Topografia</a>
+</li>
+	<li class="cat-item cat-item-7460"><a href="http://www.freelibros.org/category/transferencia-de-calor" title="Ver todas las entradas archivadas en Transferencia de Calor">Transferencia de Calor</a>
+</li>
+	<li class="cat-item cat-item-7567"><a href="http://www.freelibros.org/category/transferencia-de-masa" title="Ver todas las entradas archivadas en Transferencia de Masa">Transferencia de Masa</a>
+</li>
+	<li class="cat-item cat-item-116"><a href="http://www.freelibros.org/category/tutorial" title="Ver todas las entradas archivadas en Tutoriales">Tutoriales</a>
+</li>
+	<li class="cat-item cat-item-10466"><a href="http://www.freelibros.org/category/veterinaria" title="Ver todas las entradas archivadas en Veterinaria">Veterinaria</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://www.freelibros.org/category/videotutoriales" title="Ver todas las entradas archivadas en VideoTutoriales">VideoTutoriales</a>
+</li>
+	<li class="cat-item cat-item-81"><a href="http://www.freelibros.org/category/windows" title="Ver todas las entradas archivadas en Windows">Windows</a>
+</li>
+	<li class="cat-item cat-item-5343"><a href="http://www.freelibros.org/category/zoologia" title="Ver todas las entradas archivadas en Zoologia">Zoologia</a>
+</li>
+	<li class="cat-item cat-item-10601"><a href="http://www.freelibros.org/category/zootecnia" title="Ver todas las entradas archivadas en Zootecnia">Zootecnia</a>
+</li>
+		</ul>
+</div>
+                <div style="position: relative; left: 0px; top: 0px;" id="floating-sidebar" class="hide-for-small sticky-scroll">
+                                    </div>
+                
+            </aside><!-- End Sidebar -->   
+
+        </div>
+
+        <!-- End content wrapper -->
+        
+	<!-- Footer -->
+
+        <footer id="footer" class="row-wide">
+            <div class="row" id="footer-widgets">
+
+                <!--Footer widgets-->
+                <div class="four columns widgets-column"><div id="linkcat-2" class="widget widget_links"><h4 class="title">Blogroll</h4>
+	<ul class="xoxo blogroll">
+<li><a href="http://www.fulltonovip.com/" rel="me" title="Descargar Gratis MP3" target="_blank">Descargar Gratis MP3</a></li>
+<li><a href="http://bit.ly/K0v0vG" target="_blank">Descargas By Blade</a></li>
+<li><a href="http://www.educacionsi.com/" rel="acquaintance met" target="_blank">Educación sí!</a></li>
+<li><a href="http://goo.gl/gjmXv" rel="me" title="Libros en Formato EPUB" target="_blank">EpubGratis.Net</a></li>
+<li><a href="http://www.somosseguridad.com/" rel="acquaintance met" target="_blank">Seguridad industrial</a></li>
+<li><a href="http://www.todoenjava.blogspot.com/" rel="friend" target="_blank">Todo en Java</a></li>
+<li><a href="http://www.worldmovil.org/" target="_blank">Todo para tu Celular</a></li>
+<li><a href="http://www.vistesmoda.com/" rel="acquaintance met" target="_blank">Vistes a la moda</a></li>
+
+	</ul>
+</div>
+</div>
+                <div class="four columns widgets-column">
+                <!-- Email subscription widget -->
+        <div class="widget email-subscription">
+            <h4 class="title">Suscríbete por Correo</h4>            <div class="msg">Recibe nuestros últimos eBooks en tu correo.</div>
+            
+            
+                <form action="http://feedburner.google.com/fb/a/mailverify" target="popupwindow" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=Ebookss', 'popupwindow', 'scrollbars=yes,width=550,height=520');
+                        return true" _lpchecked="1">
+
+            
+                    <input class="" placeholder="Mi correo es..." name="email" type="text">
+                    <input value="Ebookss" name="uri" type="hidden">
+                    <input value="es_ES" name="loc" type="hidden">
+
+                                        <input class="" value="Enviar" type="submit">
+                            <div class="clear"></div>
+                </form>
+        </div>
+
+         </div>
+                <div class="four columns widgets-column"><div id="text-13" class="widget widget_text"><h4 class="title">Acerca de nosotros</h4>			<div class="textwidget"><p>Este proyecto es una pequeña contribución a todo ese inmenso mundo de información que circula por la red.</p>
+<p>Y nuestro objetivo es crear contenidos que puedan enriquecer la formación de quienes quieran leerlos.</p>
+</div>
+		</div>
+        <div class="widget unwrapped "><center><a href="http://feeds.feedburner.com/Ebookss"><img src="entrada_files/Ebookss.gif" style="border:0" alt="" height="26" width="88"></a><br><div style="display: inline;" id="wau_wid_9f6a4811"><a href="http://whos.amung.us/pro/stats/gpqz/" target="_blank"><img src="entrada_files/a.png" id="wau_wid_img_9f6a4811" class="wau_small" title="Stats by whos.amung.us" border="0"></a></div><script type="text/javascript" id="wau_scr_9f6a4811">
+    var wau_p = wau_p || []; wau_p.push(["gpqz", "9f6a4811", false]);
+    (function() {
+        var s=document.createElement("script"); s.type="text/javascript";
+        s.async=true; s.src="http://widgets.amung.us/a_pro.js";
+        document.getElementsByTagName("head")[0].appendChild(s);
+    })();
+</script></center></div>
+        <div class="clear"></div>
+        </div>
+            </div>
+            
+            <div class="row" id="copyright-bar">
+                <!-- Copyright message -->
+                <div class="eight columns" id="copyright-msg">© 2014Todos los derechos reservados.FreeLibros – Tu Biblioteca Virtual</div>
+
+                <!-- Designer link -->
+                <div class="four column" id="designer-link">Diseñado por <a href="http://blogueaygana.com/creacion-blogs-profesionales/" rel="nofollow" target="_blank">Jose Vega</a></div>
+
+            </div>
+        </footer>
+
+				<!-- Public Download links-->
+        <div style="top: 100px; opacity: 1; visibility: hidden; display: none;" id="download-public-links" class="widget reveal-modal small">
+            <h3 class="title">Enlaces Públicos de descarga</h3>            
+            <center><center><div style="position:relative; width:468px; height:60px;">
+
+                <div id="bannerPlayer" style="position:absolute; top:0px; left:0px; text-align:center; padding-top:20px; width:100%; height:100%; background:url(http://www.freelibros.org/fl/descargapre.png) no-repeat center center; cursor:pointer;">
+                               <div style="position:relative; width:468px; height:60px; margin:auto; opacity:0.01; filter:alpha(opacity=01);">
+
+<iframe class="lgvxeiaoytdctcgnsduo" src="entrada_files/direct_004.htm" border="0" marginwidth="0" marginheight="0" frameborder="0" height="60" scrolling="no" width="468"></iframe>
+                               </div>
+                </div>
+</div></center><span style="font-weight: bold; color: rgb(102, 0, 204);">Contraseña/Password: <span style="color: rgb(204, 0, 0);">www.freelibros.com</span> o <span style="color: rgb(204, 0, 0);">www.freelibros.org</span></span></center>            
+            <ul><li><a href="http://prialepaste.com/f.php#gbKpEuOuvOe6nPoapOviQQnCJ7ru5dWfqeTwHZzANrNXDume7bhWbldR0+Qz/pGUvx+/2+9wrJ3O/iYgd2q1jxv44k9VIo2+oBjh83afvozkmxEtl4O/yLgPm2yd+v80ML5rsD349q4Qi1WMiRUmEK53mL9Cydz2u0qCPD4uTfwg==" target="_blank" rel="nofollow">FreakShare</a></li><li><a href="http://prialepaste.com/f.php#pcKQ9eRBLZFJ1VSYk/6k7g2uQiNZv1uUgPNv3TBFMfkWDZsfNwlO6CsBYTvCCAOYhh+6US8X6Ec5tfPCflBjLqPJgmeL2DKeB52IhdRN17ag==" target="_blank" rel="nofollow"> DepositFiles</a></li><li><a href="http://prialepaste.com/f.php#G+YYXZX4NxASbajAFTGdDAHih7MiBqwzxSorEu/Be7edGemz1s27saIDJJHib/rKyDMw4e2yybWjFHdj77/VsCJXi1UHhfjOyI2+kvZ2/l/e8LoAJPUrbTcwn16OAJF0I=" target="_blank" rel="nofollow"> SockShare</a></li><li><a href="http://prialepaste.com/f.php#7+DrcIi+nhQoQWSnlHy7FwZOYm0CR8ipbgca2Tz8ph0unkfw36D4iE9ZfIdCYeTQM0u1ny7nD1yCW3Qe6R2fOWWbMRgCgm8/hEdYDkXxx2kAMkChBglj7UMDcynB/oy94=" target="_blank" rel="nofollow"> FireDrive</a></li><li><a href="http://prialepaste.com/f.php#2oT1oH7dXb8NE6Hv6Voe3AQGPG6LdEKTvaQg0yveteSPARKRKwOzlYayOukaPety7dIYhoRecqPL50BLxgnGaJQb2Ms2yz1eb0D+/uzLynTQw/uc0Qg+tn0+zxJU3D+g3sHEzS2mwecJ1mzOE5qnZr" target="_blank" rel="nofollow"> Uploaded</a></li><li><a href="http://prialepaste.com/f.php#tKLt+L5AupwzOu9Kd5qCuQTE55Npt/+DLqUEpoL347rsFDY1sXjT/j3zFwO5AyGeNjnCNbT+UKX9jXFN5dAFYlj2V61BgiimgOc8M7A/cx2r+ykfopNzjxZIIHQhj2nJYH+OXECq/8WkVtEoTrV3QbuqDgZ2AvqgX8kruT3/3X8KIuz7rwt0B75eoiHnM+/SI=" target="_blank" rel="nofollow"> RapidGator</a></li><li><a href="http://prialepaste.com/f.php#dPcjJLjFx6GuOcYcFc8uZwMpkPQhH2uFFYCIrBvgZTUqx5MQ4onCLYi/y2TCFd1foJLXEMH6ImLUaocEl8gMpMqqSQX0WmWAkNwHxaEaAdYg==" target="_blank" rel="nofollow"> ShaRed</a></li><li><a href="http://prialepaste.com/f.php#OdR3wgyTIld4aV5V5RuHvA4Q3eF2u519Lsy+7anpwz4ETBt50SElZAfmhRifgATqxn1G+lFOrrxyWbFGunsusYRlCK+OKXZ4LGF+6fFA2TZg==" target="_blank" rel="nofollow"> Mirror</a></li><li><a href="http://prialepaste.com/f.php#kAV30tIQYzIQQGK4wmcaeQE9IapSpRiQCBublSOyuxrXwht7KXNLFzBtN65QDszvQ=" target="_blank" rel="nofollow"></a></li><li><a href="http://www.yourfilezone.com/signup?sf=search_books&amp;ref=4972781&amp;q=Java%20a%20fondo:%20Estudio%20del%20lenguaje%20y%20desarrollo%20de%20aplicaciones,%202da%20Edici%C3%B3n%20%E2%80%93%20Pablo%20Augusto%20Sznajdleder" target="_blank">Direct Download Link</a></li></ul>
+            
+                        <p><b>Contraseña:</b>&nbsp;&nbsp;www.freelibros.org</p>
+                        
+            <a class="close-reveal-modal">×</a>
+        </div><div style="opacity: 0.8; display: none; cursor: pointer;" class="reveal-modal-bg"></div>
+				<!--Private Download links-->		
+        <div id="download-private-links" class="widget reveal-modal small" data-post-id="47335" data-user-id="0">
+            <h3 class="title">Enlaces Privados de descarga</h3>
+            
+            <center><center><div style="position:relative; width:468px; height:60px;">
+
+                <div id="bannerPlayer" style="position:absolute; top:0px; left:0px; text-align:center; padding-top:20px; width:100%; height:100%; background:url(http://www.freelibros.org/fl/descargaslibros.gif) no-repeat center center; cursor:pointer;">
+                               <div style="position:relative; width:468px; height:60px; margin:auto; opacity:0.01; filter:alpha(opacity=01);">
+
+<iframe class="lgvxeiaoytdctcgnsduo" src="entrada_files/direct_004.htm" border="0" marginwidth="0" marginheight="0" frameborder="0" height="60" scrolling="no" width="468"></iframe>
+                               </div>
+                </div>
+</div></center><span style="font-weight: bold; color: rgb(102, 0, 204);">Contraseña/Password: <span style="color: rgb(204, 0, 0);">www.freelibros.com</span> o <span style="color: rgb(204, 0, 0);">www.freelibros.org</span></span></center>            
+            
+            <p>Para acceder a los Enlaces de Descarga Privados, necesitas ser miembro de este blog.</p><p>Si aún no eres miembro, puedes usar los enlaces de abajo para crear una cuenta gratuita.</p><div class="actions"><a href="http://www.freelibros.org/wp-login.php?redirect_to=http%3A%2F%2Fwww.freelibros.org%2Fprogramacion%2Fjava-a-fondo-estudio-del-lenguaje-y-desarrollo-de-aplicaciones-2da-edicion-pablo-augusto-sznajdleder.html">Acceder</a><a href="http://www.freelibros.org/wp-login.php?action=register">Registrarse</a></div>   
+            <a class="close-reveal-modal">×</a>
+        </div>
+                                
+	
+                <!--Go to top link-->
+                <a style="display: none; opacity: 1;" href="#header" id="go-top">
+                    <span class="icon-stack">
+                        <i class="icon-circle icon-stack-base"></i>
+                        <i class="icon-chevron-up icon-light"></i>
+                    </span>
+                </a>
+                
+        <!-- End Footer -->
+
+<script>var _wpcf7 = {"loaderUrl":"http:\/\/www.freelibros.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Enviando..."};</script><script type="text/javascript" src="entrada_files/minqueue-395c9051-f6092a48.js"></script>
+
+<script type="text/javascript">
+
+//WINDOW.LOAD
+    jQuery(window).load(function() {
+        
+// Init Vertical share Buttons with counter
+
+    jQuery('.share-buttons.vertical.counter .twitter').sharrre({
+        share: {
+            twitter: true
+        },
+        enableHover: false,
+        template: '<div class="box"><a class="count" href="#" target="_blank">{total}</a><div class="share"><a href="#"><i class="icon-twitter"></i></a></div></div>',
+        enableTracking: true,
+        buttons: {twitter: {via: 'FreeLibros_CoM'}},
+        click: function(api, options) {
+            api.simulateClick();
+            api.openPopup('twitter');
+        }
+    });
+    jQuery('.share-buttons.vertical.counter .facebook').sharrre({
+        share: {
+            facebook: true
+        },
+        enableHover: false,
+        template: '<div class="box"><a class="count" href="#" target="_blank">{total}</a><div class="share"><a href="#"><i class="icon-facebook"></i></a></div></div>',
+        enableTracking: true,
+        click: function(api, options) {
+            api.simulateClick();
+            api.openPopup('facebook');
+        }
+    });
+
+    // Horizontal Share Buttons with counter
+    jQuery('.share-buttons.horizontal.counter .twitter').sharrre({
+        share: {
+            twitter: true
+        },
+        enableHover: false,
+        template: '<div class="box"><div class="share"><a href="#"><i class="icon-twitter"></i></a></div><a class="count" href="#" target="_blank">{total}</a></div>',
+        enableTracking: true,
+        buttons: {twitter: {via: 'FreeLibros_CoM'}},
+        click: function(api, options) {
+            api.simulateClick();
+            api.openPopup('twitter');
+        }
+    });
+    jQuery('.share-buttons.horizontal.counter .facebook').sharrre({
+        share: {
+            facebook: true
+        },
+        enableHover: false,
+        template: '<div class="box"><div class="share"><a href="#"><i class="icon-facebook"></i></a></div><a class="count" href="#" target="_blank">{total}</a></div>',
+        enableTracking: true,
+        click: function(api, options) {
+            api.simulateClick();
+            api.openPopup('facebook');
+        }
+    });
+        
+        // Google plus
+            jQuery('.share-buttons.vertical.counter .googleplus').sharrre({
+        share: {
+            googlePlus: true
+        },
+        enableHover: false,
+        urlCurl: 'http://www.freelibros.org/wp-content/themes/freelibros-pro/functions/fl-sharrre.php',
+        template: '<div class="box"><a class="count" href="#" target="_blank">{total}</a><div class="share"><a href="#"><i class="icon-google-plus"></i></a></div></div>',
+        enableTracking: true,
+        click: function(api, options) {
+            api.simulateClick();
+            api.openPopup('googlePlus');
+        }
+    });
+    jQuery('.share-buttons.horizontal.counter .googleplus').sharrre({
+        share: {
+            googlePlus: true
+        },
+        enableHover: false,
+        urlCurl: 'http://www.freelibros.org/wp-content/themes/freelibros-pro/functions/fl-sharrre.php',
+        template: '<div class="box"><div class="share"><a href="#"><i class="icon-google-plus"></i></a></div><a class="count" href="#" target="_blank">{total}</a></div>',
+        enableTracking: true,
+        click: function(api, options) {
+            api.simulateClick();
+            api.openPopup('googlePlus');
+        }
+    });
+
+    // Responsive Navigation, turn regular menus into dropdowns
+    jQuery('#top-nav .menu').tinyNav({header: 'Navegación de Páginas'}); // Top Nav   
+    jQuery('#primary-nav ul.menu').tinyNav({header: 'Navegación de Categorías'}); // Primary Nav     
+    
+    
+    });
+    </script> 
+      
+    <script src="entrada_files/cfxply.js" type="text/javascript"></script>
+    
+ </body></html>
