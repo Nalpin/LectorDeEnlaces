@@ -19,7 +19,7 @@ public class LectorDeEnlaces implements Iterable<String> {
 
 	@Override
 	public Iterator<String> iterator() {
-		// return new MiIterador();
+		// Retorna nuevo iterador 
 		return new Iterator<String>() {
 			private int indice;
 			@Override
@@ -36,61 +36,21 @@ public class LectorDeEnlaces implements Iterable<String> {
 			public String next() {
 				String enlace = null;
 				// Busca la primera comilla a partir del indice actual
-				int j = contenido.indexOf('\"', indice);
-				if (j > 0) {
+				int i = contenido.indexOf('\"', indice);
+				if (i > 0) {
 					// Busca la segunda comilla
-					int k = contenido.indexOf('\"', j + 1);
-					if (k > 0) {
-						// Devuelve el contenido del enlace
-						enlace = contenido.substring(j + 1, k);
+					int j = contenido.indexOf('\"', i + 1);
+					if (j > 0) {
+						// Obtiene enlace
+						enlace = contenido.substring(i + 1, j);
 					}
 				}
 				return enlace;
 			}
 			@Override
 			public void remove() {
-				// TODO Apéndice de método generado automáticamente
+				// No se necesita implementarlo
 			}
 		};
-
 	}
-	
-	protected class MiIterador implements Iterator<String> {
-
-		private int indice;
-		
-		@Override
-		public boolean hasNext() {
-			// Busca etiqueta anchor en la entrada a partir del indice actual
-			indice = contenido.indexOf("<a", indice);
-			if (indice >= 0) {
-				// Busca atributo href en la entrada a partir del indice actual
-				indice = contenido.indexOf("href=", indice);
-			}
-			return (indice >= 0);
-		}
-
-		@Override
-		public String next() {
-			String enlace = null;
-			// Busca la primera comilla a partir del indice actual
-			int j = contenido.indexOf('\"', indice);
-			if (j > 0) {
-				// Busca la segunda comilla
-				int k = contenido.indexOf('\"', j + 1);
-				if (k > 0) {
-					// Devuelve el contenido del enlace
-					enlace = contenido.substring(j + 1, k);
-				}
-			}
-			return enlace;
-		}
-
-		@Override
-		public void remove() {
-			// TODO Apéndice de método generado automáticamente
-		}
-		
-	}
-
 }

@@ -3,8 +3,6 @@ package org.nestorpineda.test;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-import org.nestorpineda.lector.LectorDeEnlaces;
-
 public class Test {
 
 	/**
@@ -19,16 +17,32 @@ public class Test {
 		BufferedReader lector = null;
 		try {
 			lector = new BufferedReader(new FileReader(args[0]));
-			int numLinea = 0; // Numero de línea
 			String linea;
 			do {
 				// Leer una linea del archivo de entrada
 				linea = lector.readLine();
 				if (linea == null) continue;
-				numLinea++;
-				// Iteramos sobre el LectorDeEnlaces de la linea actual
-				for (String enlace : new LectorDeEnlaces(linea)) {
-					System.out.println(numLinea + ": " + enlace);
+				// Buscamos los enlaces en la linea
+				int indice = 0;
+				while (indice >= 0) {
+					// Busca etiqueta anchor en la entrada a partir del indice actual
+					indice = linea.indexOf("<a", indice);
+					if (indice >= 0) {
+						// Busca atributo href en la entrada a partir del indice actual
+						indice = linea.indexOf("href=", indice);
+						if (indice > 0) {
+							// Busca la primera comilla a partir del indice actual
+							int i = linea.indexOf('\"', indice);
+							if (i > 0) {
+								// Busca la segunda comilla
+								int j = linea.indexOf('\"', i + 1);
+								if (j > 0) {
+									// Imprimir enlace
+									System.out.println(linea.substring(i + 1, j));
+								}
+							}
+						}
+					}
 				}
 			} while (linea != null);
 		} catch (Exception e) {
